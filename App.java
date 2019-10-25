@@ -17,5 +17,9 @@ public class App {
         // print an adjacency list as an example
         System.out.println("\n\nPrint adjacency list");
         graph.printAdjacencyList("KZN");
+        
+        System.out.println("\n===== BFS test uwu =====");
+        BreadthFirstSearch bfs = new BreadthFirstSearch(graph);
+        bfs.findPath("ASF", "AER");
     }
 }
