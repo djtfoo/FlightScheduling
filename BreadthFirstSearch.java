@@ -8,15 +8,15 @@ public class BreadthFirstSearch implements Pathfinder {
 	private Graph graph;
 	private Queue<String> queue;
 	private ArrayList<String> marked;
-	private ArrayList<String> directions;
-	private HashMap<String, String> previous;
+	private ArrayList<String> path;
+	private HashMap<String, String> tree;
 	
 	public BreadthFirstSearch(Graph g) {
 		graph = g;
 		queue = new LinkedList<>();
 		marked = new ArrayList<String>();
-		directions = new ArrayList<String>();
-		previous = new HashMap<String, String>();
+		path = new ArrayList<String>();
+		tree = new HashMap<String, String>();
 	}
 	
     public ArrayList<String> findPath(String source, String dest) {
@@ -33,35 +33,52 @@ public class BreadthFirstSearch implements Pathfinder {
     			break;
     		}
     		else {
-    			// list of curr's neighbors
-    			AdjacencyList adjList = graph.getAdjacencyList(curr);
-    			adjList.setStart();
-    			String neighbour = adjList.iterateNext();
-    			
-    			// iterate through neighbours
-    			while (neighbour != null) {
-    				// if unmarked, enqueue and mark it
-    				if (!marked.contains(neighbour)) {
-    					queue.add(neighbour);
-    					marked.add(neighbour);
-    					previous.put(neighbour, curr);
-    				}
-    				neighbour = adjList.iterateNext();
-    			}
+    			processNeighbours(curr);
     		}
     	}
-    	System.out.println(previous);
     	
     	if (!curr.equals(dest)) {
-    		System.out.println("No path found from " + source + " to " + dest);
+    		System.out.println("No path found from " + source + " to " + dest + ".");
+    		return null;
     	}
     	
-    	for (String v = dest; v != null; v = previous.get(v)) {
-    		directions.add(v);
-    	}
-    	Collections.reverse(directions);
-    	
-    	System.out.println(directions);
-    	return directions;
+    	generatePath(dest);
+    	printPath();
+    	return path;
     }
+    
+	private void processNeighbours(String curr) {
+		// list of curr's neighbors
+		AdjacencyList adjList = graph.getAdjacencyList(curr);
+		adjList.setStart();
+		String neighbour = adjList.iterateNext();
+		
+		// iterate through neighbours
+		while (neighbour != null) {
+			// if unmarked, enqueue & mark it, then add the edge to previous
+			if (!marked.contains(neighbour)) {
+				queue.add(neighbour);
+				marked.add(neighbour);
+				tree.put(neighbour, curr);
+			}
+			neighbour = adjList.iterateNext();
+		}
+	}
+	
+	private void generatePath(String dest) {
+    	for (String v = dest; v != null; v = tree.get(v)) {
+    		path.add(v);
+    	}
+    	Collections.reverse(path);
+	}
+	
+	private void printPath() {
+		int n = path.size();
+		
+		System.out.print("Shortest path: " + path.get(0));
+		for (int i = 1; i < n; i++) {
+			System.out.print(" -> " + path.get(i));
+		}
+		System.out.println();
+	}
 }
