@@ -57,4 +57,22 @@ public class AdjacencyList {
         ++iterator;
         return item;
     }
+    
+    public void printList(String node) {
+        if (list == null) {
+            System.out.println(node + " is not in graph");
+        }
+        else {
+        	setStart();
+        	String item = iterateNext();
+        	System.out.print(node + ": ");
+        	while (item != null) {
+        		System.out.print(item);
+        		item = iterateNext();
+        		if (item != null)
+        			System.out.print(", ");
+        	}
+        	System.out.println();
+        }
+    }
 }

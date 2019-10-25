@@ -5,28 +5,16 @@ public class Graph {
     private HashMap<String, AdjacencyList> adjacencyLists;
 
     public Graph() {
-        
         adjacencyLists = new HashMap<String, AdjacencyList>();
+    }
+    
+    public AdjacencyList getAdjacencyList(String node) {
+    	return adjacencyLists.get(node);
     }
 
     public void printAdjacencyList(String node) {
         AdjacencyList list = adjacencyLists.get(node);
-        if (list == null) {
-            System.out.println(node + " is not in graph");
-        }
-        else {
-            list.setStart();
-            String item = list.iterateNext();
-            
-            System.out.print(node + ": ");
-            while (item != null) {
-                System.out.print(item);
-                item = list.iterateNext();
-                if (item != null)
-                    System.out.print(", ");
-            }
-            System.out.println();
-        }
+        list.printList(node);
     }
 
     public boolean addEdge(String source, String target) {
