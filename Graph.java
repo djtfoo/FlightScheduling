@@ -17,7 +17,7 @@ public class Graph {
             AdjacencyList list = adjacencyLists.get(node);
             list.printList(node);
         } else {
-            System.out.println(node + " is not in graph");
+            //System.out.println(node + " is not in graph");
         }
     }
 
@@ -32,22 +32,22 @@ public class Graph {
 
     private boolean addEdgeToList(String source, String target) {
         if (adjacencyLists.get(source).contains(target)) {
-            System.out.println(source + " to " + target + " edge already exists");
+            //System.out.println(source + " to " + target + " edge already exists");
             return false;
         }
         adjacencyLists.get(source).add(target);
-            System.out.println(source + " to " + target + " edge added!");
+        //System.out.println(source + " to " + target + " edge added!");
         return true;
     }
 
     private boolean addVertex(String source) {
         if (adjacencyLists.containsKey(source)) {
-            System.out.println(source + " vertex already exists");
+            //System.out.println(source + " vertex already exists");
             return false;
         }
         
         adjacencyLists.put(source, new AdjacencyList());
-        System.out.println(source + " vertex added!");
+        //System.out.println(source + " vertex added!");
         return true;
     }
 }

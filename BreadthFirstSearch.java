@@ -30,7 +30,7 @@ public class BreadthFirstSearch implements Pathfinder {
 	}
 	
     public void findPath(String source, String dest) {
-    	System.out.println("Finding a path from " + source + " to " + dest + "~");
+    	System.out.println("Finding a path from " + source + " to " + dest);
         
         // Create temporary data structures
 	    Queue<String> queue = new LinkedList<>();
