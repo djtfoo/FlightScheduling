@@ -13,8 +13,12 @@ public class Graph {
     }
 
     public void printAdjacencyList(String node) {
-        AdjacencyList list = adjacencyLists.get(node);
-        list.printList(node);
+        if (adjacencyLists.contains(node)) {
+            AdjacencyList list = adjacencyLists.get(node);
+            list.printList(node);
+        } else {
+            System.out.println(node + " is not in graph");
+        }
     }
 
     public boolean addEdge(String source, String target) {

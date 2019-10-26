@@ -5,22 +5,39 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 public class BreadthFirstSearch implements Pathfinder {
+
+    /*
+     * Graph to perform BFS on
+     */
 	private Graph graph;
-	private Queue<String> queue;
-	private ArrayList<String> marked;
+
+    /*
+     * Store results of BFS
+     */
 	private ArrayList<String> path;
-	private HashMap<String, String> tree;
+    public ArrayList<String> getPath() {
+        return path;
+    }
+	private HashMap<String, String> tree;   // key = node, value = previous node that led to key
+    public HashMap<String, String> getTree() {
+        return tree;
+    }
 	
 	public BreadthFirstSearch(Graph g) {
 		graph = g;
-		queue = new LinkedList<>();
-		marked = new ArrayList<String>();
-		path = new ArrayList<String>();
+        path = new ArrayList<String>();
 		tree = new HashMap<String, String>();
 	}
 	
-    public ArrayList<String> findPath(String source, String dest) {
+    public void findPath(String source, String dest) {
     	System.out.println("Finding a path from " + source + " to " + dest + "~");
+        
+        // Create temporary data structures
+	    Queue<String> queue = new LinkedList<>();
+	    ArrayList<String> marked = new ArrayList<String>();
+        // Clear data structures holding results
+        path.clear();
+        tree.clear();
     	
     	String curr = source;
     	queue.add(curr);
@@ -33,21 +50,20 @@ public class BreadthFirstSearch implements Pathfinder {
     			break;
     		}
     		else {
-    			processNeighbours(curr);
+    			processNeighbours(curr, queue, marked);
     		}
     	}
     	
     	if (!curr.equals(dest)) {
     		System.out.println("No path found from " + source + " to " + dest + ".");
-    		return null;
     	}
-    	
-    	generatePath(dest);
-    	printPath();
-    	return path;
+        else {
+    	    generatePath(dest);
+    	    printPath();
+        }
     }
     
-	private void processNeighbours(String curr) {
+	private void processNeighbours(String curr, Queue<String> queue, ArrayList<String> marked) {
 		// list of curr's neighbors
 		AdjacencyList adjList = graph.getAdjacencyList(curr);
 		adjList.setStart();
@@ -64,16 +80,17 @@ public class BreadthFirstSearch implements Pathfinder {
 	}
 	
 	// generates path using edges in the generated tree
+    // called only if path is found
 	private void generatePath(String dest) {
-    	for (String v = dest; v != null; v = tree.get(v)) {
+        for (String v = dest; v != null; v = tree.get(v)) {
     		path.add(v);
     	}
     	Collections.reverse(path);
 	}
 	
+    // called only when path is found
 	private void printPath() {
 		int n = path.size();
-		
 		System.out.print("Shortest path: " + path.get(0));
 		for (int i = 1; i < n; i++) {
 			System.out.print(" -> " + path.get(i));

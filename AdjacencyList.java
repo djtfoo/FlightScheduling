@@ -59,13 +59,14 @@ public class AdjacencyList {
     }
     
     public void printList(String node) {
-        if (list == null) {
-            System.out.println(node + " is not in graph");
+        System.out.print(node + ": ");
+
+        if (list.isEmpty()) {
+            System.out.println("has no neighbours");
         }
         else {
         	setStart();
         	String item = iterateNext();
-        	System.out.print(node + ": ");
         	while (item != null) {
         		System.out.print(item);
         		item = iterateNext();
