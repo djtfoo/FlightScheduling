@@ -13,7 +13,7 @@ public class Graph {
     }
 
     public void printAdjacencyList(String node) {
-        if (adjacencyLists.contains(node)) {
+        if (adjacencyLists.containsKey(node)) {
             AdjacencyList list = adjacencyLists.get(node);
             list.printList(node);
         } else {
