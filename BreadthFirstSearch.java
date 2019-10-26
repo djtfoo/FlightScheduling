@@ -27,7 +27,7 @@ public class BreadthFirstSearch implements Pathfinder {
     	marked.add(curr);
     	
     	while (!queue.isEmpty()) {
-    		curr = queue.poll();	// dequeue
+    		curr = queue.poll();	// dequeue from queue
     		if (curr.equals(dest)) {
     			System.out.println("Destination found.");
     			break;
@@ -51,20 +51,19 @@ public class BreadthFirstSearch implements Pathfinder {
 		// list of curr's neighbors
 		AdjacencyList adjList = graph.getAdjacencyList(curr);
 		adjList.setStart();
-		String neighbour = adjList.iterateNext();
 		
 		// iterate through neighbours
-		while (neighbour != null) {
-			// if unmarked, enqueue & mark it, then add the edge to previous
+		for (String neighbour = adjList.iterateNext(); neighbour != null; neighbour = adjList.iterateNext()) {
+			// if unmarked, enqueue & mark it, then add the edge to tree
 			if (!marked.contains(neighbour)) {
 				queue.add(neighbour);
 				marked.add(neighbour);
 				tree.put(neighbour, curr);
 			}
-			neighbour = adjList.iterateNext();
 		}
 	}
 	
+	// generates path using edges in the generated tree
 	private void generatePath(String dest) {
     	for (String v = dest; v != null; v = tree.get(v)) {
     		path.add(v);
