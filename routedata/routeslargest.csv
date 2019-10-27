@@ -1,4 +1,4 @@
-Source City ,Destination City
+#Source City,Destination City
 Adler/Sochi,Kazan
 Astrakhan,Kazan
 Astrakhan,Mineralnye Vody
@@ -4157,7 +4157,7 @@ Aruba,Charlotte
 Aruba,Philadelphia
 Abu Dhabi,Colombo
 Abu Dhabi,Dusseldorf
-Abu Dhabi,"Dulles, DC"
+Abu Dhabi,Dulles DC
 Abu Dhabi,Islamabad
 Abu Dhabi,New York
 Abu Dhabi,Lahore
@@ -4374,7 +4374,7 @@ Charlotte,Hilton Head
 Charlotte,Westchester County
 Charlotte,Huntsville
 Charlotte,Huntington
-Charlotte,"Dulles, DC"
+Charlotte,Dulles DC
 Charlotte,Houston
 Charlotte,Wilmington
 Charlotte,Indianapolis
@@ -4645,7 +4645,7 @@ Dallas,Guatemala City
 Dallas,Honolulu
 Dallas,Houston
 Dallas,Huntsville
-Dallas,"Dulles, DC"
+Dallas,Dulles DC
 Dallas,Seoul
 Dallas,Wichita
 Dallas,Indianapolis
@@ -4752,7 +4752,7 @@ Dallas,Toronto
 Dallas,Zacatecas
 Dakar,Las Palmas
 Doha,Manama
-Doha,"Dulles, DC"
+Doha,Dulles DC
 Doha,Houston
 Doha,New York
 Doha,Chicago
@@ -4936,13 +4936,13 @@ Huntsville,Chicago
 Huntington,Charlotte
 New Haven,Philadelphia
 Hyderabad,London
-"Dulles, DC",Abu Dhabi
-"Dulles, DC",Charlotte
-"Dulles, DC",Dallas
-"Dulles, DC",Doha
-"Dulles, DC",Los Angeles
-"Dulles, DC",London
-"Dulles, DC",Miami
+Dulles DC,Abu Dhabi
+Dulles DC,Charlotte
+Dulles DC,Dallas
+Dulles DC,Doha
+Dulles DC,Los Angeles
+Dulles DC,London
+Dulles DC,Miami
 Houston,Charlotte
 Houston,Doha
 Houston,Los Angeles
@@ -5093,7 +5093,7 @@ Los Angeles,Guadalajara
 Los Angeles,Sao Paulo
 Los Angeles,Hong Kong
 Los Angeles,Honolulu
-Los Angeles,"Dulles, DC"
+Los Angeles,Dulles DC
 Los Angeles,Houston
 Los Angeles,Indianapolis
 Los Angeles,New York
@@ -5208,7 +5208,7 @@ London,Gothenburg
 London,Geneva
 London,Vantaa
 London,Hyderabad
-London,"Dulles, DC"
+London,Dulles DC
 London,Houston
 London,Istanbul
 London,New York
@@ -5397,7 +5397,7 @@ Miami,Sao Paulo
 Miami,High Point
 Miami,Guatemala City
 Miami,Guayaquil
-Miami,"Dulles, DC"
+Miami,Dulles DC
 Miami,Houston
 Miami,Indianapolis
 Miami,Jacksonville
@@ -6973,7 +6973,7 @@ Denver,Atlanta
 Denver,New Orleans
 Denver,Edmonton
 Denver,Fort Mcmurray
-Denver,"Regina, Saskatchewan"
+Denver,Regina Saskatchewan
 Denver,Montreal
 Denver,Vancouver
 Denver,Winnipeg
@@ -7024,10 +7024,10 @@ Hong Kong,Toronto
 Honolulu,Vancouver
 Holguin,Montreal
 Holguin,Toronto
-"Dulles, DC",New Orleans
-"Dulles, DC",Ottawa
-"Dulles, DC",Montreal
-"Dulles, DC",Toronto
+Dulles DC,New Orleans
+Dulles DC,Ottawa
+Dulles DC,Montreal
+Dulles DC,Toronto
 Houston,New Orleans
 Houston,Edmonton
 Houston,Montreal
@@ -7066,7 +7066,7 @@ Milwaukee,Toronto
 Minneapolis,Toronto
 New Orleans,Denver
 New Orleans,Newark
-New Orleans,"Dulles, DC"
+New Orleans,Dulles DC
 New Orleans,Houston
 New Orleans,Toronto
 Munich,Sofia
@@ -7083,7 +7083,7 @@ Chicago,Edmonton
 Chicago,Halifax
 Chicago,Ottawa
 Chicago,Quebec City
-Chicago,"Regina, Saskatchewan"
+Chicago,Regina Saskatchewan
 Chicago,Winnipeg
 Ouagadougou,Brussels
 Port Au Prince,Montreal
@@ -7157,7 +7157,7 @@ Edmonton,Chicago
 Edmonton,San Francisco
 Edmonton,Fort Mcmurray
 Edmonton,Ottawa
-Edmonton,"Regina, Saskatchewan"
+Edmonton,Regina Saskatchewan
 Edmonton,Grande Prairie
 Edmonton,Montreal
 Edmonton,Vancouver
@@ -7193,7 +7193,7 @@ Fort Mcmurray,Toronto
 Ottawa,Boston
 Ottawa,Washington
 Ottawa,Frankfurt
-Ottawa,"Dulles, DC"
+Ottawa,Dulles DC
 Ottawa,New York
 Ottawa,London
 Ottawa,Chicago
@@ -7215,13 +7215,13 @@ Quebec City,Sept-Iles
 Red Deer,Calgary
 Windsor,Toronto
 Lethbridge,Calgary
-"Regina, Saskatchewan",Denver
-"Regina, Saskatchewan",Chicago
-"Regina, Saskatchewan",Edmonton
-"Regina, Saskatchewan",Vancouver
-"Regina, Saskatchewan",Winnipeg
-"Regina, Saskatchewan",Calgary
-"Regina, Saskatchewan",Toronto
+Regina Saskatchewan,Denver
+Regina Saskatchewan,Chicago
+Regina Saskatchewan,Edmonton
+Regina Saskatchewan,Vancouver
+Regina Saskatchewan,Winnipeg
+Regina Saskatchewan,Calgary
+Regina Saskatchewan,Toronto
 Thunder Bay,Winnipeg
 Thunder Bay,Toronto
 Grande Prairie,Edmonton
@@ -7251,7 +7251,7 @@ Montreal,Fort Lauderdale
 Montreal,Frankfurt
 Montreal,Geneva
 Montreal,Holguin
-Montreal,"Dulles, DC"
+Montreal,Dulles DC
 Montreal,Houston
 Montreal,Las Vegas
 Montreal,Los Angeles
@@ -7303,7 +7303,7 @@ Vancouver,Edmonton
 Vancouver,Fort Mcmurray
 Vancouver,Ottawa
 Vancouver,Prince Rupert
-Vancouver,"Regina, Saskatchewan"
+Vancouver,Regina Saskatchewan
 Vancouver,Montreal
 Vancouver,Winnipeg
 Vancouver,Saskatoon
@@ -7319,7 +7319,7 @@ Winnipeg,Denver
 Winnipeg,Chicago
 Winnipeg,Edmonton
 Winnipeg,Ottawa
-Winnipeg,"Regina, Saskatchewan"
+Winnipeg,Regina Saskatchewan
 Winnipeg,Thunder Bay
 Winnipeg,Montreal
 Winnipeg,Vancouver
@@ -7357,7 +7357,7 @@ Calgary,Fort Mcmurray
 Calgary,Ottawa
 Calgary,Red Deer
 Calgary,Lethbridge
-Calgary,"Regina, Saskatchewan"
+Calgary,Regina Saskatchewan
 Calgary,Grande Prairie
 Calgary,Montreal
 Calgary,Vancouver
@@ -7424,7 +7424,7 @@ Toronto,Sao Paulo
 Toronto,Havana
 Toronto,Hong Kong
 Toronto,Holguin
-Toronto,"Dulles, DC"
+Toronto,Dulles DC
 Toronto,Houston
 Toronto,Indianapolis
 Toronto,Istanbul
@@ -7474,7 +7474,7 @@ Toronto,Fort Mcmurray
 Toronto,Ottawa
 Toronto,Quebec City
 Toronto,Windsor
-Toronto,"Regina, Saskatchewan"
+Toronto,Regina Saskatchewan
 Toronto,Thunder Bay
 Toronto,Sydney
 Toronto,Sudbury
@@ -7926,7 +7926,7 @@ Atlanta,Killeen
 Atlanta,Grand Rapids
 Atlanta,Westchester County
 Atlanta,Huntsville
-Atlanta,"Dulles, DC"
+Atlanta,Dulles DC
 Atlanta,Houston
 Atlanta,Wichita
 Atlanta,Wilmington
@@ -8129,7 +8129,7 @@ Paris,Havana
 Paris,Vantaa
 Paris,Hong Kong
 Paris,Tokyo
-Paris,"Dulles, DC"
+Paris,Dulles DC
 Paris,Houston
 Paris,Seoul
 Paris,Jeddah
@@ -8319,8 +8319,8 @@ Westchester County,Atlanta
 Harare,Lusaka
 Harare,Nairobi
 Huntsville,Atlanta
-"Dulles, DC",Atlanta
-"Dulles, DC",Paris
+Dulles DC,Atlanta
+Dulles DC,Paris
 Houston,Atlanta
 Houston,Paris
 Seoul,Paris
@@ -9270,7 +9270,7 @@ Hermosillo,Los Mochis
 Hermosillo,Monterrey
 Hermosillo,Mexicali
 Hermosillo,Tijuana
-"Dulles, DC",Mexico City
+Dulles DC,Mexico City
 Houston,Mexico City
 Indianapolis,Cancun
 Jalapa,Mexico City
@@ -9307,7 +9307,7 @@ Mexico City,Durango
 Mexico City,Detroit
 Mexico City,Buenos Aires
 Mexico City,Sao Paulo
-Mexico City,"Dulles, DC"
+Mexico City,Dulles DC
 Mexico City,Houston
 Mexico City,Jalapa
 Mexico City,Las Vegas
@@ -10058,7 +10058,7 @@ Bogota,Rio De Janeiro
 Bogota,Sao Paulo
 Bogota,Guatemala City
 Bogota,Havana
-Bogota,"Dulles, DC"
+Bogota,Dulles DC
 Bogota,Houston
 Bogota,Ibague
 Bogota,New York
@@ -10121,8 +10121,8 @@ Guatemala City,San Jose
 Guayaquil,Lima
 Guayaquil,San Salvador
 Havana,Bogota
-"Dulles, DC",Bogota
-"Dulles, DC",San Salvador
+Dulles DC,Bogota
+Dulles DC,San Salvador
 Houston,Bogota
 Houston,San Salvador
 Ibague,Bogota
@@ -10190,7 +10190,7 @@ San Salvador,Cancun
 San Salvador,Newark
 San Salvador,Guatemala City
 San Salvador,Guayaquil
-San Salvador,"Dulles, DC"
+San Salvador,Dulles DC
 San Salvador,Houston
 San Salvador,New York
 San Salvador,Los Angeles
@@ -10858,7 +10858,7 @@ Boston,Dubai
 Boston,Newark
 Boston,Fort Lauderdale
 Boston,Houston
-Boston,"Dulles, DC"
+Boston,Dulles DC
 Boston,Jacksonville
 Boston,Las Vegas
 Boston,Long Beach
@@ -10897,7 +10897,7 @@ Dallas,Dubai
 Detroit,Boston
 Dubai,Boston
 Dubai,Dallas
-Dubai,"Dulles, DC"
+Dubai,Dulles DC
 Dubai,Houston
 Dubai,New York
 Dubai,Los Angeles
@@ -10943,10 +10943,10 @@ Westchester County,Orlando
 Westchester County,West Palm Beach
 Westchester County,Fort Myers
 Westchester County,Tampa
-"Dulles, DC",Boston
-"Dulles, DC",Dubai
-"Dulles, DC",New York
-"Dulles, DC",Long Beach
+Dulles DC,Boston
+Dulles DC,Dubai
+Dulles DC,New York
+Dulles DC,Long Beach
 Houston,Dubai
 Jacksonville,Boston
 Jacksonville,New York
@@ -10965,7 +10965,7 @@ New York,Dubai
 New York,Fort Lauderdale
 New York,Georgetown
 New York,Houston
-New York,"Dulles, DC"
+New York,Dulles DC
 New York,Jacksonville
 New York,Johannesburg
 New York,Kingston
@@ -10997,7 +10997,7 @@ Las Vegas,Long Beach
 Los Angeles,Dubai
 Los Angeles,Fort Lauderdale
 Long Beach,Boston
-Long Beach,"Dulles, DC"
+Long Beach,Dulles DC
 Long Beach,New York
 Long Beach,Las Vegas
 Long Beach,Oakland
@@ -12407,7 +12407,7 @@ Huangyan,Guangzhou
 Huangyan,Beijing
 Huangyan,Shenzhen
 Huangyan,Zhuhai
-"Dulles, DC",Beijing
+Dulles DC,Beijing
 Houston,Cancun
 Houston,Beijing
 Seoul,Chongqing
@@ -12636,7 +12636,7 @@ Beijing,Tokyo
 Beijing,Honolulu
 Beijing,Harbin
 Beijing,Huangyan
-Beijing,"Dulles, DC"
+Beijing,Dulles DC
 Beijing,Houston
 Beijing,Seoul
 Beijing,Yinchuan
@@ -13237,7 +13237,7 @@ Guatemala City,Managua
 Guatemala City,Panama City
 Guayaquil,Panama City
 Havana,Panama City
-"Dulles, DC",Panama City
+Dulles DC,Panama City
 Houston,Panama City
 Houston,San Francisco
 Iquitos,Panama City
@@ -13282,7 +13282,7 @@ Panama City,Sao Paulo
 Panama City,Guatemala City
 Panama City,Guayaquil
 Panama City,Havana
-Panama City,"Dulles, DC"
+Panama City,Dulles DC
 Panama City,Houston
 Panama City,Iquitos
 Panama City,New York
@@ -14499,7 +14499,7 @@ Haarlemmermeer,Boston
 Haarlemmermeer,Dallas
 Haarlemmermeer,Detroit
 Haarlemmermeer,Newark
-Haarlemmermeer,"Dulles, DC"
+Haarlemmermeer,Dulles DC
 Haarlemmermeer,Houston
 Haarlemmermeer,New York
 Haarlemmermeer,Los Angeles
@@ -14743,7 +14743,7 @@ Detroit,High Point
 Detroit,Greenville
 Detroit,Westchester County
 Detroit,Huntsville
-Detroit,"Dulles, DC"
+Detroit,Dulles DC
 Detroit,Houston
 Detroit,Seoul
 Detroit,Indianapolis
@@ -14871,11 +14871,11 @@ Honolulu,San Francisco
 Honolulu,Salt Lake City
 Westchester County,Detroit
 Huntsville,Detroit
-"Dulles, DC",Haarlemmermeer
-"Dulles, DC",Detroit
-"Dulles, DC",Seoul
-"Dulles, DC",Minneapolis
-"Dulles, DC",Moscow
+Dulles DC,Haarlemmermeer
+Dulles DC,Detroit
+Dulles DC,Seoul
+Dulles DC,Minneapolis
+Dulles DC,Moscow
 Houston,Haarlemmermeer
 Houston,Cincinnati
 Houston,Detroit
@@ -14885,7 +14885,7 @@ Houston,Salt Lake City
 Seoul,Atlanta
 Seoul,Detroit
 Seoul,Honolulu
-Seoul,"Dulles, DC"
+Seoul,Dulles DC
 Seoul,New York
 Seoul,Las Vegas
 Seoul,Los Angeles
@@ -15090,7 +15090,7 @@ Minneapolis,Grand Rapids
 Minneapolis,Great Falls
 Minneapolis,Chisholm
 Minneapolis,Helena
-Minneapolis,"Dulles, DC"
+Minneapolis,Dulles DC
 Minneapolis,Houston
 Minneapolis,Wichita
 Minneapolis,Iron Mountain
@@ -15144,7 +15144,7 @@ Minneapolis,Traverse City
 Minneapolis,Knoxville
 Minneapolis,Fayetteville
 Minneapolis,Edmonton
-Minneapolis,"Regina, Saskatchewan"
+Minneapolis,Regina Saskatchewan
 Minneapolis,Montreal
 Minneapolis,Vancouver
 Minneapolis,Winnipeg
@@ -15348,7 +15348,7 @@ St Louis,Cincinnati
 St Louis,Detroit
 St Louis,Minneapolis
 St Louis,Salt Lake City
-Moscow,"Dulles, DC"
+Moscow,Dulles DC
 Moscow,New York
 Moscow,Los Angeles
 Moscow,Miami
@@ -15384,7 +15384,7 @@ Fayetteville,Minneapolis
 Edmonton,Minneapolis
 Halifax,New York
 Ottawa,Detroit
-"Regina, Saskatchewan",Minneapolis
+Regina Saskatchewan,Minneapolis
 Montreal,Haarlemmermeer
 Montreal,Minneapolis
 Vancouver,Haarlemmermeer
@@ -16085,7 +16085,7 @@ Dublin,Glasgow
 Dublin,Geneva
 Dublin,Hanover
 Dublin,Hamburg
-Dublin,"Dulles, DC"
+Dublin,Dulles DC
 Dublin,Ibiza
 Dublin,Isle Of Man
 Dublin,Jersey
@@ -16133,7 +16133,7 @@ Glasgow,Cork
 Geneva,Dublin
 Hanover,Dublin
 Hamburg,Dublin
-"Dulles, DC",Dublin
+Dulles DC,Dublin
 Ibiza,Dublin
 Isle Of Man,Dublin
 Jersey,Dublin
@@ -16738,7 +16738,7 @@ Hargeisa,Addis Ababa
 Hong Kong,Addis Ababa
 Harare,Addis Ababa
 Harare,Lilongwe
-"Dulles, DC",Addis Ababa
+Dulles DC,Addis Ababa
 Djibouti,Addis Ababa
 Djibouti,Dire Dawa
 Jijiga,Addis Ababa
@@ -17202,7 +17202,7 @@ Denver,Reykjavik
 Newark,Reykjavik
 Frankfurt,Reykjavik
 Glasgow,Reykjavik
-"Dulles, DC",Reykjavik
+Dulles DC,Reykjavik
 New York,Reykjavik
 Reykjavik,Haarlemmermeer
 Reykjavik,Stockholm
@@ -17215,7 +17215,7 @@ Reykjavik,Denver
 Reykjavik,Newark
 Reykjavik,Frankfurt
 Reykjavik,Glasgow
-Reykjavik,"Dulles, DC"
+Reykjavik,Dulles DC
 Reykjavik,New York
 Reykjavik,London
 Reykjavik,Manchester
@@ -17413,9 +17413,9 @@ Houston,Tampa
 Houston,Tulsa
 Harlingen,Houston
 Harlingen,Midland
-"Dulles, DC",Denver
-"Dulles, DC",Chicago
-"Dulles, DC",Tampa
+Dulles DC,Denver
+Dulles DC,Chicago
+Dulles DC,Tampa
 Indianapolis,Baltimore
 Indianapolis,Las Vegas
 Indianapolis,Kansas City
@@ -17469,7 +17469,7 @@ Chicago,Albany
 Chicago,Birmingham
 Chicago,Charleston
 Chicago,Greenville
-Chicago,"Dulles, DC"
+Chicago,Dulles DC
 Chicago,Jackson
 Chicago,Oakland
 Chicago,Ontario
@@ -23691,7 +23691,7 @@ Brussels,Abidjan
 Brussels,Freetown
 Brussels,Hanover
 Brussels,Hamburg
-Brussels,"Dulles, DC"
+Brussels,Dulles DC
 Brussels,Munich
 Brussels,Yaounde
 Mulhouse/Basel,Frankfurt
@@ -23784,7 +23784,7 @@ Frankfurt,Graz
 Frankfurt,Westerland
 Frankfurt,Hanover
 Frankfurt,Hamburg
-Frankfurt,"Dulles, DC"
+Frankfurt,Dulles DC
 Frankfurt,Houston
 Frankfurt,Innsbruck
 Frankfurt,Istanbul
@@ -23855,9 +23855,9 @@ Hamburg,Lisbon
 Hamburg,Warsaw
 Hong Kong,Munich
 Tokyo,Munich
-"Dulles, DC",Brussels
-"Dulles, DC",Frankfurt
-"Dulles, DC",Munich
+Dulles DC,Brussels
+Dulles DC,Frankfurt
+Dulles DC,Munich
 Houston,Frankfurt
 Seoul,Munich
 Innsbruck,Frankfurt
@@ -23930,7 +23930,7 @@ Munich,Geneva
 Munich,Hanover
 Munich,Hong Kong
 Munich,Tokyo
-Munich,"Dulles, DC"
+Munich,Dulles DC
 Munich,Seoul
 Munich,New York
 Munich,Johannesburg
@@ -24433,12 +24433,12 @@ Shanghai,Male
 Albuquerque,Carlsbad
 Albuquerque,Los Alamos
 Carlsbad,Albuquerque
-Hagerstown,"Dulles, DC"
-"Dulles, DC",Hagerstown
-"Dulles, DC",Lancaster
+Hagerstown,Dulles DC
+Dulles DC,Hagerstown
+Dulles DC,Lancaster
 Houston,Victoria
 Los Alamos,Albuquerque
-Lancaster,"Dulles, DC"
+Lancaster,Dulles DC
 Victoria,Houston
 Malaga,Geneva
 Malaga,Zurich
@@ -24475,7 +24475,7 @@ Geneva,Catania
 Geneva,Moscow
 Geneva,Newark
 Geneva,Heraklion
-Geneva,"Dulles, DC"
+Geneva,Dulles DC
 Geneva,New York
 Geneva,St Petersburg
 Geneva,Nice
@@ -24489,8 +24489,8 @@ Geneva,Vienna
 Havana,Zurich
 Heraklion,Geneva
 Hong Kong,Zurich
-"Dulles, DC",Geneva
-"Dulles, DC",Zurich
+Dulles DC,Geneva
+Dulles DC,Zurich
 Istanbul,Zurich
 New York,Geneva
 Johannesburg,Zurich
@@ -24550,7 +24550,7 @@ Zurich,Newark
 Zurich,Sao Paulo
 Zurich,Havana
 Zurich,Hong Kong
-Zurich,"Dulles, DC"
+Zurich,Dulles DC
 Zurich,Istanbul
 Zurich,Johannesburg
 Zurich,Kiev
@@ -25505,7 +25505,7 @@ Tokyo,Toyama
 Tokyo,Tottori
 Tokyo,Wakkanai
 Saga,Tokyo
-"Dulles, DC",Tokyo
+Dulles DC,Tokyo
 Houston,Tokyo
 Seoul,Hiroshima
 Seoul,Miyazaki
@@ -25565,7 +25565,7 @@ Nagasaki,Tsushima
 Tokyo,Auckland
 Tokyo,Denver
 Tokyo,Newark
-Tokyo,"Dulles, DC"
+Tokyo,Dulles DC
 Tokyo,Houston
 Tokyo,Istanbul
 Tokyo,Niigata
@@ -26099,7 +26099,7 @@ Dnepropetrovsk,Vienna
 Yerevan,Vienna
 Graz,Vienna
 Kharkov,Vienna
-"Dulles, DC",Vienna
+Dulles DC,Vienna
 Iasi,Vienna
 Innsbruck,Vienna
 Istanbul,Vienna
@@ -26140,7 +26140,7 @@ Vienna,Dnepropetrovsk
 Vienna,Yerevan
 Vienna,Graz
 Vienna,Kharkov
-Vienna,"Dulles, DC"
+Vienna,Dulles DC
 Vienna,Iasi
 Vienna,Innsbruck
 Vienna,Istanbul
@@ -27843,7 +27843,7 @@ Cape Town,Upington
 Cape Town,Windhoek
 Cape Town,Walvis Bay
 Dar Es Salaam,Johannesburg
-Dakar,"Dulles, DC"
+Dakar,Dulles DC
 Dakar,Johannesburg
 Durban,East London
 Durban,George
@@ -27861,7 +27861,7 @@ George,Durban
 Hoedspruit,Cape Town
 Hoedspruit,Johannesburg
 Harare,Durban
-"Dulles, DC",Dakar
+Dulles DC,Dakar
 Johannesburg,Accra
 Johannesburg,Nampula
 Johannesburg,Beira
@@ -28113,7 +28113,7 @@ Copenhagen,Gothenburg
 Copenhagen,Hanover
 Copenhagen,Hamburg
 Copenhagen,Haugesund
-Copenhagen,"Dulles, DC"
+Copenhagen,Dulles DC
 Copenhagen,Kristiansand
 Copenhagen,Leeds
 Copenhagen,St Petersburg
@@ -28147,7 +28147,7 @@ Hanover,Copenhagen
 Hamburg,Copenhagen
 Haugesund,Copenhagen
 Vantaa,Istanbul
-"Dulles, DC",Copenhagen
+Dulles DC,Copenhagen
 Istanbul,Aalborg
 Istanbul,Gothenburg
 Istanbul,Vantaa
@@ -28539,8 +28539,8 @@ Alahsa,Jeddah
 Alahsa,Riyadh
 Hyderabad,Dammam
 Hyderabad,Riyadh
-"Dulles, DC",Jeddah
-"Dulles, DC",Riyadh
+Dulles DC,Jeddah
+Dulles DC,Riyadh
 Isfahan,Madinah
 Istanbul,Dammam
 Istanbul,Jeddah
@@ -28566,7 +28566,7 @@ Jeddah,Jazan
 Jeddah,Geneva
 Jeddah,Hail
 Jeddah,Alahsa
-Jeddah,"Dulles, DC"
+Jeddah,Dulles DC
 Jeddah,Isfahan
 Jeddah,New York
 Jeddah,Johannesburg
@@ -28646,7 +28646,7 @@ Riyadh,Geneva
 Riyadh,Hail
 Riyadh,Alahsa
 Riyadh,Hyderabad
-Riyadh,"Dulles, DC"
+Riyadh,Dulles DC
 Riyadh,Istanbul
 Riyadh,New York
 Riyadh,Kuala Lumpur
@@ -28990,7 +28990,7 @@ Geneva,Istanbul
 Gaziantep,Ankara
 Hamburg,Izmir
 Hong Kong,Istanbul
-"Dulles, DC",Istanbul
+Dulles DC,Istanbul
 Houston,Istanbul
 Isfahan,Istanbul
 Islamabad,Istanbul
@@ -29023,7 +29023,7 @@ Istanbul,Genoa
 Istanbul,Sao Paulo
 Istanbul,Geneva
 Istanbul,Hong Kong
-Istanbul,"Dulles, DC"
+Istanbul,Dulles DC
 Istanbul,Houston
 Istanbul,Isfahan
 Istanbul,Islamabad
@@ -30017,38 +30017,38 @@ Atlantic City,Houston
 Alexandria,Houston
 Aguascalientes,Houston
 Albany,Cleveland
-Albany,"Dulles, DC"
+Albany,Dulles DC
 Amarillo,Houston
 Anchorage,Denver
 Antigua,Newark
-Martinsburg,"Dulles, DC"
+Martinsburg,Dulles DC
 Martinsburg,Johnstown
 Aspen,Denver
 Aspen,Los Angeles
 Appleton,Chicago
 Aruba,Newark
-Aruba,"Dulles, DC"
+Aruba,Dulles DC
 Fletcher,Chicago
 Wilkes-Barre,Chicago
 Bermuda,Newark
-Windsor Locks,"Dulles, DC"
+Windsor Locks,Dulles DC
 Bradford,Cleveland
 Bradford,Jamestown
 Bakersfield,Denver
 Bakersfield,Houston
 Bakersfield,Los Angeles
 Bakersfield,San Francisco
-Endicott,"Dulles, DC"
+Endicott,Dulles DC
 Birmingham,Denver
 Birmingham,Houston
 Birmingham,Chicago
 Billings,Denver
 Leon/Guanajuato,Houston
-Beckley,"Dulles, DC"
+Beckley,Dulles DC
 Beckley,Staunton
 Nashville,Cleveland
 Nashville,Newark
-Nashville,"Dulles, DC"
+Nashville,Dulles DC
 Boise,Los Angeles
 Boise,Chicago
 Boise,San Francisco
@@ -30059,10 +30059,10 @@ Aguadilla,Newark
 Brownsville,Houston
 Baton Rouge,Houston
 Burlington,Newark
-Burlington,"Dulles, DC"
+Burlington,Dulles DC
 Buffalo,Cleveland
 Buffalo,Newark
-Buffalo,"Dulles, DC"
+Buffalo,Dulles DC
 Burbank,Denver
 Burbank,San Francisco
 Baltimore,Newark
@@ -30071,19 +30071,19 @@ Baltimore,San Francisco
 Belize City,Newark
 Belize City,Houston
 Bozeman,Chicago
-Columbia,"Dulles, DC"
+Columbia,Dulles DC
 Columbia,Houston
 Akron/Canton,Chicago
 Caracas,Houston
 Crescent City,Arcata
 Crescent City,San Francisco
-Charlottesville,"Dulles, DC"
+Charlottesville,Dulles DC
 Charleston,Cleveland
 Charleston,Newark
-Charleston,"Dulles, DC"
+Charleston,Dulles DC
 Charleston,Houston
 Chico,San Francisco
-Clarksburg,"Dulles, DC"
+Clarksburg,Dulles DC
 Clarksburg,Morgantown
 Cleveland,Albany
 Cleveland,Bradford
@@ -30103,7 +30103,7 @@ Cleveland,Fort Lauderdale
 Cleveland,Flint
 Cleveland,Grand Rapids
 Cleveland,Greenville
-Cleveland,"Dulles, DC"
+Cleveland,Dulles DC
 Cleveland,Houston
 Cleveland,Indianapolis
 Cleveland,Jamestown
@@ -30129,12 +30129,12 @@ Ciudad Del Carmen,Houston
 Columbus,Cleveland
 Columbus,Denver
 Columbus,Newark
-Columbus,"Dulles, DC"
+Columbus,Dulles DC
 Columbus,Houston
 Hancock,Chicago
 Cody/Yellowstone,Denver
 Colorado Springs,Denver
-Colorado Springs,"Dulles, DC"
+Colorado Springs,Dulles DC
 Colorado Springs,Houston
 Colorado Springs,Los Angeles
 Colorado Springs,Chicago
@@ -30142,15 +30142,15 @@ Colorado Springs,San Francisco
 Casper,Denver
 Corpus Christi,Houston
 Cancun,Newark
-Cancun,"Dulles, DC"
+Cancun,Dulles DC
 Cancun,San Francisco
 Chihuahua,Houston
-Cincinnati,"Dulles, DC"
+Cincinnati,Dulles DC
 Cozumel,Houston
 Dayton,Cleveland
 Dayton,Denver
 Dayton,Newark
-Dayton,"Dulles, DC"
+Dayton,Dulles DC
 Washington,Cleveland
 Washington,Newark
 Washington,Houston
@@ -30182,7 +30182,7 @@ Denver,Hayden
 Denver,Helena
 Denver,Honolulu
 Denver,Huntsville
-Denver,"Dulles, DC"
+Denver,Dulles DC
 Denver,Wichita
 Denver,Idaho Falls
 Denver,Williston
@@ -30256,7 +30256,7 @@ Newark,High Point
 Newark,Greenville
 Newark,Guatemala City
 Newark,Honolulu
-Newark,"Dulles, DC"
+Newark,Dulles DC
 Newark,Houston
 Newark,Indianapolis
 Newark,Ithaca
@@ -30311,18 +30311,18 @@ Newark,Quebec City
 Newark,St. John's
 Buenos Aires,Houston
 Fresno,San Francisco
-Fayetteville,"Dulles, DC"
+Fayetteville,Dulles DC
 Kalispell,Denver
-Rome,"Dulles, DC"
+Rome,Dulles DC
 Franklin,Cleveland
 Franklin,Dubois
 Fort Lauderdale,Cleveland
-Fort Lauderdale,"Dulles, DC"
+Fort Lauderdale,Dulles DC
 Flint,Cleveland
 Topeka,Chicago
 Gillette,Denver
 Georgetown,Newark
-Georgetown,"Dulles, DC"
+Georgetown,Dulles DC
 Georgetown,Houston
 Guadalajara,Houston
 Rio De Janeiro,Houston
@@ -30333,110 +30333,110 @@ Killeen,Houston
 Grand Rapids,Cleveland
 Grand Rapids,Denver
 Grand Rapids,Newark
-Grand Rapids,"Dulles, DC"
+Grand Rapids,Dulles DC
 Grand Rapids,Houston
 Sao Paulo,Newark
-Sao Paulo,"Dulles, DC"
+Sao Paulo,Dulles DC
 Sao Paulo,Houston
 Sao Paulo,Chicago
 High Point,Newark
-High Point,"Dulles, DC"
+High Point,Dulles DC
 High Point,Chicago
 Greenville,Cleveland
 Greenville,Newark
-Greenville,"Dulles, DC"
+Greenville,Dulles DC
 Greenville,Houston
 Great Falls,Denver
 Guatemala City,Newark
-Guatemala City,"Dulles, DC"
+Guatemala City,Dulles DC
 Guatemala City,Houston
 Gunnison,Denver
 Hayden,Denver
 Helena,Denver
 Honolulu,Denver
 Honolulu,Newark
-Honolulu,"Dulles, DC"
+Honolulu,Dulles DC
 Honolulu,Houston
 Honolulu,Majuro
 Honolulu,Chicago
 Hobbs,Houston
 Huntsville,Denver
-Huntsville,"Dulles, DC"
+Huntsville,Dulles DC
 Huntsville,Houston
 Huatulco,Houston
-"Dulles, DC",Albany
-"Dulles, DC",Martinsburg
-"Dulles, DC",Aruba
-"Dulles, DC",Windsor Locks
-"Dulles, DC",Endicott
-"Dulles, DC",Beckley
-"Dulles, DC",Nashville
-"Dulles, DC",Burlington
-"Dulles, DC",Buffalo
-"Dulles, DC",Columbia
-"Dulles, DC",Charlottesville
-"Dulles, DC",Charleston
-"Dulles, DC",Cleveland
-"Dulles, DC",Columbus
-"Dulles, DC",Colorado Springs
-"Dulles, DC",Cancun
-"Dulles, DC",Cincinnati
-"Dulles, DC",Dayton
-"Dulles, DC",Newark
-"Dulles, DC",Fayetteville
-"Dulles, DC",Rome
-"Dulles, DC",Fort Lauderdale
-"Dulles, DC",Georgetown
-"Dulles, DC",Grand Rapids
-"Dulles, DC",Sao Paulo
-"Dulles, DC",High Point
-"Dulles, DC",Greenville
-"Dulles, DC",Guatemala City
-"Dulles, DC",Honolulu
-"Dulles, DC",Huntsville
-"Dulles, DC",Houston
-"Dulles, DC",Indianapolis
-"Dulles, DC",Jacksonville
-"Dulles, DC",Johnstown
-"Dulles, DC",Kuwait City
-"Dulles, DC",Las Vegas
-"Dulles, DC",Lewisburg
-"Dulles, DC",Manchester
-"Dulles, DC",Montego Bay
-"Dulles, DC",Kansas City
-"Dulles, DC",Orlando
-"Dulles, DC",Harrisburg
-"Dulles, DC",Morgantown
-"Dulles, DC",Oklahoma City
-"Dulles, DC",Omaha
-"Dulles, DC",Norfolk
-"Dulles, DC",Portland
-"Dulles, DC",Philadelphia
-"Dulles, DC",Phoenix
-"Dulles, DC",Pittsburgh
-"Dulles, DC",Punta Cana
-"Dulles, DC",Providence
-"Dulles, DC",Raleigh/Durham
-"Dulles, DC",Richmond
-"Dulles, DC",Roanoke
-"Dulles, DC",Rochester
-"Dulles, DC",San Diego
-"Dulles, DC",San Antonio
-"Dulles, DC",Savannah
-"Dulles, DC",State College
-"Dulles, DC",Louisville
-"Dulles, DC",Seattle
-"Dulles, DC",San Francisco
-"Dulles, DC",Staunton
-"Dulles, DC",San Jose
-"Dulles, DC",San Juan
-"Dulles, DC",Sacramento
-"Dulles, DC",St Louis
-"Dulles, DC",St Thomas Island
-"Dulles, DC",St Maarten
-"Dulles, DC",Syracuse
-"Dulles, DC",Tulsa
-"Dulles, DC",Knoxville
+Dulles DC,Albany
+Dulles DC,Martinsburg
+Dulles DC,Aruba
+Dulles DC,Windsor Locks
+Dulles DC,Endicott
+Dulles DC,Beckley
+Dulles DC,Nashville
+Dulles DC,Burlington
+Dulles DC,Buffalo
+Dulles DC,Columbia
+Dulles DC,Charlottesville
+Dulles DC,Charleston
+Dulles DC,Cleveland
+Dulles DC,Columbus
+Dulles DC,Colorado Springs
+Dulles DC,Cancun
+Dulles DC,Cincinnati
+Dulles DC,Dayton
+Dulles DC,Newark
+Dulles DC,Fayetteville
+Dulles DC,Rome
+Dulles DC,Fort Lauderdale
+Dulles DC,Georgetown
+Dulles DC,Grand Rapids
+Dulles DC,Sao Paulo
+Dulles DC,High Point
+Dulles DC,Greenville
+Dulles DC,Guatemala City
+Dulles DC,Honolulu
+Dulles DC,Huntsville
+Dulles DC,Houston
+Dulles DC,Indianapolis
+Dulles DC,Jacksonville
+Dulles DC,Johnstown
+Dulles DC,Kuwait City
+Dulles DC,Las Vegas
+Dulles DC,Lewisburg
+Dulles DC,Manchester
+Dulles DC,Montego Bay
+Dulles DC,Kansas City
+Dulles DC,Orlando
+Dulles DC,Harrisburg
+Dulles DC,Morgantown
+Dulles DC,Oklahoma City
+Dulles DC,Omaha
+Dulles DC,Norfolk
+Dulles DC,Portland
+Dulles DC,Philadelphia
+Dulles DC,Phoenix
+Dulles DC,Pittsburgh
+Dulles DC,Punta Cana
+Dulles DC,Providence
+Dulles DC,Raleigh/Durham
+Dulles DC,Richmond
+Dulles DC,Roanoke
+Dulles DC,Rochester
+Dulles DC,San Diego
+Dulles DC,San Antonio
+Dulles DC,Savannah
+Dulles DC,State College
+Dulles DC,Louisville
+Dulles DC,Seattle
+Dulles DC,San Francisco
+Dulles DC,Staunton
+Dulles DC,San Jose
+Dulles DC,San Juan
+Dulles DC,Sacramento
+Dulles DC,St Louis
+Dulles DC,St Thomas Island
+Dulles DC,St Maarten
+Dulles DC,Syracuse
+Dulles DC,Tulsa
+Dulles DC,Knoxville
 Houston,Albuquerque
 Houston,Acapulco
 Houston,Atlantic City
@@ -30480,7 +30480,7 @@ Houston,Honolulu
 Houston,Hobbs
 Houston,Huntsville
 Houston,Huatulco
-Houston,"Dulles, DC"
+Houston,Dulles DC
 Houston,Wichita
 Houston,Indianapolis
 Houston,Jackson
@@ -30553,7 +30553,7 @@ Wichita,Los Angeles
 Idaho Falls,Denver
 Indianapolis,Cleveland
 Indianapolis,Newark
-Indianapolis,"Dulles, DC"
+Indianapolis,Dulles DC
 Indianapolis,Houston
 Indianapolis,San Francisco
 Williston,Denver
@@ -30562,12 +30562,12 @@ Hilo,Los Angeles
 Jackson,Denver
 Jackson,Chicago
 Jacksonville,Newark
-Jacksonville,"Dulles, DC"
+Jacksonville,Dulles DC
 Jacksonville,Houston
 Jamestown,Bradford
 Jamestown,Cleveland
 Johnstown,Martinsburg
-Johnstown,"Dulles, DC"
+Johnstown,Dulles DC
 Kona,Denver
 Kona,San Francisco
 Kosrae,Kwajalein
@@ -30575,12 +30575,12 @@ Kosrae,Pohnpei
 Kwajalein,Kosrae
 Kwajalein,Majuro
 Kwajalein,Pohnpei
-Kuwait City,"Dulles, DC"
+Kuwait City,Dulles DC
 Lansing,Chicago
 Laramie,Denver
 Las Vegas,Cleveland
 Las Vegas,Newark
-Las Vegas,"Dulles, DC"
+Las Vegas,Dulles DC
 Las Vegas,Palm Springs
 Los Angeles,Aspen
 Los Angeles,Bakersfield
@@ -30616,23 +30616,23 @@ Lincoln,Denver
 Lincoln,Chicago
 Lagos,Houston
 Laredo,Houston
-Lewisburg,"Dulles, DC"
+Lewisburg,Dulles DC
 Midland,Denver
 Midland,Houston
 Majuro,Honolulu
 Majuro,Kwajalein
 Montego Bay,Newark
-Montego Bay,"Dulles, DC"
+Montego Bay,Dulles DC
 Montego Bay,Houston
 Saginaw,Chicago
 Kansas City,Cleveland
 Kansas City,Newark
-Kansas City,"Dulles, DC"
+Kansas City,Dulles DC
 Kansas City,Houston
 Orlando,Cleveland
-Orlando,"Dulles, DC"
+Orlando,Dulles DC
 Orlando,San Francisco
-Harrisburg,"Dulles, DC"
+Harrisburg,Dulles DC
 Memphis,Newark
 Mexico City,Denver
 Mexico City,Newark
@@ -30641,7 +30641,7 @@ Medford,Denver
 Medford,San Francisco
 Managua,Houston
 Morgantown,Clarksburg
-Morgantown,"Dulles, DC"
+Morgantown,Dulles DC
 Merida,Houston
 Milwaukee,Cleveland
 Milwaukee,Newark
@@ -30673,7 +30673,7 @@ Kahului,Denver
 Kahului,Chicago
 Kahului,San Francisco
 Oklahoma City,Newark
-Oklahoma City,"Dulles, DC"
+Oklahoma City,Dulles DC
 Oklahoma City,San Francisco
 Omaha,Newark
 Omaha,Houston
@@ -30716,7 +30716,7 @@ Chicago,St Thomas Island
 Chicago,St Maarten
 Chicago,Saskatoon
 Norfolk,Newark
-Norfolk,"Dulles, DC"
+Norfolk,Dulles DC
 Norfolk,Houston
 North Bend,San Francisco
 Paducah,Chicago
@@ -30724,16 +30724,16 @@ Puebla,Houston
 West Palm Beach,Cleveland
 West Palm Beach,Houston
 Portland,Newark
-Portland,"Dulles, DC"
+Portland,Dulles DC
 Portland,Houston
 Portland,Klamath Falls
-Philadelphia,"Dulles, DC"
+Philadelphia,Dulles DC
 Phoenix,Cleveland
-Phoenix,"Dulles, DC"
+Phoenix,Dulles DC
 Peoria,Denver
 Pittsburgh,Denver
 Pittsburgh,Newark
-Pittsburgh,"Dulles, DC"
+Pittsburgh,Dulles DC
 Pittsburgh,Houston
 Pittsburgh,San Francisco
 Parkersburg,Cleveland
@@ -30753,9 +30753,9 @@ Palm Springs,Las Vegas
 Palm Springs,Los Angeles
 Pueblo,Denver
 Punta Cana,Newark
-Punta Cana,"Dulles, DC"
+Punta Cana,Dulles DC
 Providence,Newark
-Providence,"Dulles, DC"
+Providence,Dulles DC
 Puerto Vallarta,Newark
 Puerto Vallarta,Houston
 Queretaro,Houston
@@ -30765,18 +30765,18 @@ Redding,San Francisco
 Redmond,Denver
 Redmond,San Francisco
 Raleigh/Durham,Newark
-Raleigh/Durham,"Dulles, DC"
+Raleigh/Durham,Dulles DC
 Raleigh/Durham,Houston
 Richmond,Cleveland
 Richmond,Newark
-Richmond,"Dulles, DC"
+Richmond,Dulles DC
 Richmond,Houston
 Rock Springs,Denver
-Roanoke,"Dulles, DC"
+Roanoke,Dulles DC
 Roanoke,Chicago
 Rochester,Cleveland
 Rochester,Newark
-Rochester,"Dulles, DC"
+Rochester,Dulles DC
 Rota,Saipan
 Koror,Manila
 Koror,Yap
@@ -30785,15 +30785,15 @@ Fort Myers,Houston
 Roatan,Houston
 Santa Fe,Denver
 San Diego,Newark
-San Diego,"Dulles, DC"
+San Diego,Dulles DC
 San Diego,San Francisco
 San Pedro Sula,Newark
 San Pedro Sula,Houston
 San Antonio,Newark
-San Antonio,"Dulles, DC"
+San Antonio,Dulles DC
 San Antonio,San Francisco
 Savannah,Newark
-Savannah,"Dulles, DC"
+Savannah,Dulles DC
 Savannah,Houston
 Savannah,Chicago
 Santa Barbara,Los Angeles
@@ -30801,15 +30801,15 @@ Santa Barbara,San Francisco
 South Bend,Chicago
 San Luis Obispo,Los Angeles
 San Luis Obispo,San Francisco
-State College,"Dulles, DC"
+State College,Dulles DC
 State College,Chicago
 Louisville,Cleveland
 Louisville,Denver
 Louisville,Newark
-Louisville,"Dulles, DC"
+Louisville,Dulles DC
 Louisville,Houston
 Santo Domingo,Newark
-Seattle,"Dulles, DC"
+Seattle,Dulles DC
 San Francisco,Albuquerque
 San Francisco,Arcata
 San Francisco,Bakersfield
@@ -30825,7 +30825,7 @@ San Francisco,Washington
 San Francisco,Eugene
 San Francisco,Newark
 San Francisco,Fresno
-San Francisco,"Dulles, DC"
+San Francisco,Dulles DC
 San Francisco,Houston
 San Francisco,Indianapolis
 San Francisco,Kona
@@ -30856,20 +30856,20 @@ San Francisco,St Louis
 San Francisco,Tucson
 Springfield,Denver
 Saint George,Denver
-Staunton,"Dulles, DC"
+Staunton,Dulles DC
 Shreveport,Denver
 Shreveport,Houston
 San Jose,Houston
 San Jose Cabo,Newark
 San Jose Cabo,Houston
 San Jose,Newark
-San Jose,"Dulles, DC"
-San Juan,"Dulles, DC"
+San Jose,Dulles DC
+San Juan,Dulles DC
 San Juan,Houston
 San Luis Potosi,Houston
 Saltillo,Houston
 Sacramento,Arcata
-Sacramento,"Dulles, DC"
+Sacramento,Dulles DC
 Sacramento,Houston
 Sacramento,Chicago
 Sacramento,San Francisco
@@ -30881,33 +30881,33 @@ Sarasota,Chicago
 Saint Cloud,Chicago
 St Louis,Cleveland
 St Louis,Newark
-St Louis,"Dulles, DC"
+St Louis,Dulles DC
 St Louis,Houston
 St Louis,San Francisco
 St Thomas Island,Newark
-St Thomas Island,"Dulles, DC"
+St Thomas Island,Dulles DC
 St Thomas Island,Chicago
 St Maarten,Newark
-St Maarten,"Dulles, DC"
+St Maarten,Dulles DC
 St Maarten,Chicago
 Syracuse,Cleveland
 Syracuse,Newark
-Syracuse,"Dulles, DC"
+Syracuse,Dulles DC
 Tampico,Houston
 Tegucigalpa,Houston
 Truk,Pohnpei
 Tampa,Cleveland
-Tampa,"Dulles, DC"
+Tampa,Dulles DC
 Torreon,Houston
 Tulsa,Newark
-Tulsa,"Dulles, DC"
+Tulsa,Dulles DC
 Tulsa,Houston
 Tucson,Denver
 Tucson,Houston
 Tucson,San Francisco
 Tyler,Houston
 Knoxville,Newark
-Knoxville,"Dulles, DC"
+Knoxville,Dulles DC
 Knoxville,Houston
 Quito,Houston
 St Lucia,Newark
@@ -32444,7 +32444,7 @@ Tulsa,St Louis
 Tucson,San Diego
 Cancun,Edmonton
 Kona,Vancouver
-Las Vegas,"Regina, Saskatchewan"
+Las Vegas,Regina Saskatchewan
 Las Vegas,Winnipeg
 Las Vegas,Saskatoon
 Las Vegas,Victoria
@@ -32482,7 +32482,7 @@ Kelowna,Toronto
 Windsor,Calgary
 Comox,Edmonton
 Comox,Calgary
-"Regina, Saskatchewan",Las Vegas
+Regina Saskatchewan,Las Vegas
 Vancouver,Kona
 Vancouver,Kauai Island
 Vancouver,Palm Springs
