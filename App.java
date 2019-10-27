@@ -117,8 +117,20 @@ public class App {
             System.out.print("Enter end city: ");
             String dest = scr.nextLine();
 
+            // check if source and destination exist in Graph first
+            boolean runAlgo = true;
+            if (!graph.containsNode(source)) {
+                System.out.println(source + " not in graph.");
+                runAlgo = false;
+            }
+            if (!graph.containsNode(dest)) {
+                System.out.println(dest + " not in graph.");
+                runAlgo = false;
+            }
+
             // perform search algorithm
-            searcher.findPath(source, dest);
+            if (runAlgo)
+                searcher.findPath(source, dest);
         }
     }
 }

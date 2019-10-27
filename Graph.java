@@ -7,6 +7,10 @@ public class Graph {
     public Graph() {
         adjacencyLists = new HashMap<String, AdjacencyList>();
     }
+
+    public boolean containsNode(String node) {
+        return adjacencyLists.containsKey(node);
+    }
     
     public AdjacencyList getAdjacencyList(String node) {
     	return adjacencyLists.get(node);
