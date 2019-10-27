@@ -7,7 +7,10 @@ public class App {
     private Graph graph = null;
     private String options[] = {
         "Read Graph data",
-        "Find Shortest Path (BFS)"
+        "Find Shortest Path (BFS)",
+        "Print Node Degrees (to File)",
+        "Print Graph Connectivity (to File)",
+        "Print Adjacency List of Node (to File)"
     };
 
     public static void main(String[] args) {
@@ -60,8 +63,45 @@ public class App {
             break;
         case 2: // Find Shortest Path (BFS algorithm)
         {
-            BreadthFirstSearch bfs = new BreadthFirstSearch(graph);
+            Pathfinder bfs = new BreadthFirstSearch(graph);
             runPathfinding(bfs);
+        }
+            break;
+        case 3:
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                GraphLogger.getDegreeOfEachNode("./output/node_degrees.csv", graph);
+                System.out.println("Data logged");
+            }
+        }
+            break;
+        case 4:
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                GraphLogger.getConnectivityOfEachNode("./output/node_connectivity.csv", graph);
+                System.out.println("Data logged");
+            }
+        }
+            break;
+        case 5:
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Enter node: ");
+                String node = sc.nextLine();
+                if (graph.containsNode(node)) {
+                    GraphLogger.getAdjacentNodes("./output/adjlist/" + node + ".csv", graph, node);
+                    System.out.println("Data logged");
+                } else {
+                    System.out.println(node + " is not in graph");
+                }
+            }
         }
             break;
         default:
@@ -97,7 +137,7 @@ public class App {
         Graph graph = new Graph();
 
         // import graph from CSV data
-        for (int i = 1; i < lines.size(); i++) {    // ignore first line, column headers
+        for (int i = 0; i < lines.size(); i++) {
             
             String[] data = lines.get(i).split(",");
             //System.out.println("Source: " + data[0] + ", Dest: " + data[1]);
@@ -108,7 +148,7 @@ public class App {
 
     private void runPathfinding(Pathfinder searcher) {
         if (graph == null)
-            System.out.println("Graph is empty!");
+            System.out.println("No Graph loaded yet!");
         else {
             // get source and destination cities
             Scanner scr = new Scanner(System.in);

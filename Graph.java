@@ -8,6 +8,10 @@ public class Graph {
         adjacencyLists = new HashMap<String, AdjacencyList>();
     }
 
+    public HashMap<String, AdjacencyList> getAdjacencyLists() {
+        return adjacencyLists;
+    }
+
     public boolean containsNode(String node) {
         return adjacencyLists.containsKey(node);
     }
@@ -27,8 +31,9 @@ public class Graph {
 
     public boolean addEdge(String source, String target) {
         addVertex(source);
-        if (!addEdgeToList(source, target))
-            return false;
+        addEdgeToList(source, target);
+        //if (!addEdgeToList(source, target))
+        //    return false;
         addVertex(target);
         addEdgeToList(target, source);
         return true;
