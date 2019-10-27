@@ -118,7 +118,6 @@ public class App {
 
         // read selected graph number
         Scanner sc = new Scanner(System.in);
-        System.out.print("Select graph to load: ");
         int choice = 0;
         do {
             System.out.print("Select graph to load: ");
