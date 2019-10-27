@@ -316,7 +316,7 @@ Ivujivik,Salluit
 Kangirsuk,Aupaluk
 Kangirsuk,Quaqtaq
 Kangirsuk,Kuujjuaq
-Schefferville,Québec City
+Schefferville,Quebec City
 Schefferville,Kuujjuaq
 Schefferville,Wabush
 Schefferville,Sept-Iles
@@ -330,8 +330,8 @@ Povungnituk,Akulivik
 Povungnituk,La Grande
 Povungnituk,Inukjuak
 Povungnituk,Kuujjuaq
-Québec City,Schefferville
-Québec City,Montreal
+Quebec City,Schefferville
+Quebec City,Montreal
 Quaqtaq,Kangirsuk
 Quaqtaq,Kangiqsujuaq
 Sanikiluaq,Kuujjuarapik
@@ -343,7 +343,7 @@ Umiujaq,Inukjuak
 Umiujaq,Sanikiluaq
 Montreal,La Grande
 Montreal,Kuujjuarapik
-Montreal,Québec City
+Montreal,Quebec City
 Montreal,Rouyn
 Rouyn,Kuujjuarapik
 Rouyn,Montreal
@@ -2916,7 +2916,7 @@ Izmir,Istanbul
 Antalya,Istanbul
 Antalya,Kazan
 Antalya,Moscow
-Bodrum.,Istanbul
+Bodrum,Istanbul
 Paris,Istanbul
 Diyarbakir,Istanbul
 Dalaman,Istanbul
@@ -2927,7 +2927,7 @@ Gaziantep,Istanbul
 Istanbul,Adana
 Istanbul,Izmir
 Istanbul,Antalya
-Istanbul,Bodrum.
+Istanbul,Bodrum
 Istanbul,Paris
 Istanbul,Diyarbakir
 Istanbul,Dalaman
@@ -3384,13 +3384,13 @@ Araracuara,La Chorrera
 Araracuara,San Vicente
 San Andres Island,Providencia
 Apartado,Bogota
-Apartado,Medellín
+Apartado,Medellin
 Arauca,Bogota
 Bogota,Apartado
 Bogota,Arauca
 Bogota,Buenaventura
 Bogota,Corozal
-Bogota,Medellín
+Bogota,Medellin
 Bogota,Florencia
 Bogota,Ipiales
 Bogota,Mitu
@@ -3405,17 +3405,17 @@ Bogota,Tame
 Bogota,Quibdo
 Bogota,Villagarzon
 Bogota,Villavicencio
-Bahia Solano,Medellín
+Bahia Solano,Medellin
 Buenaventura,Bogota
 Cali,Guapi
 Cali,Puerto Asis
 Cali,Quibdo
 Corozal,Bogota
-Medellín,Apartado
-Medellín,Bogota
-Medellín,Bahia Solano
-Medellín,Nuqui
-Medellín,Quibdo
+Medellin,Apartado
+Medellin,Bogota
+Medellin,Bahia Solano
+Medellin,Nuqui
+Medellin,Quibdo
 Florencia,Bogota
 Guapi,Cali
 Ipiales,Bogota
@@ -3429,7 +3429,7 @@ La Pedrera,Leticia
 Puerto Leguizamo,Puerto Asis
 Mitu,Bogota
 Mitu,Villavicencio
-Nuqui,Medellín
+Nuqui,Medellin
 Puerto Carreno,Bogota
 Puerto Carreno,Villavicencio
 Puerto Inirida,Bogota
@@ -3449,7 +3449,7 @@ Tame,Bogota
 Tame,Saravena
 Quibdo,Bogota
 Quibdo,Cali
-Quibdo,Medellín
+Quibdo,Medellin
 Villagarzon,Bogota
 Villavicencio,Bogota
 Villavicencio,Lamacarena
@@ -5836,7 +5836,7 @@ Philadelphia,Knoxville
 Philadelphia,Venice
 Philadelphia,Halifax
 Philadelphia,Ottawa
-Philadelphia,Québec City
+Philadelphia,Quebec City
 Philadelphia,Montreal
 Philadelphia,Toronto
 Philadelphia,Zurich
@@ -6262,7 +6262,7 @@ Halifax,Philadelphia
 Kitchener/Waterloo,Chicago
 Ottawa,Charlotte
 Ottawa,Philadelphia
-Québec City,Philadelphia
+Quebec City,Philadelphia
 Montreal,Amman
 Montreal,Charlotte
 Montreal,Washington
@@ -7082,7 +7082,7 @@ Kahului,Vancouver
 Chicago,Edmonton
 Chicago,Halifax
 Chicago,Ottawa
-Chicago,Québec City
+Chicago,Quebec City
 Chicago,"Regina, Saskatchewan"
 Chicago,Winnipeg
 Ouagadougou,Brussels
@@ -7200,7 +7200,7 @@ Ottawa,Chicago
 Ottawa,Edmonton
 Ottawa,Fredericton
 Ottawa,Halifax
-Ottawa,Québec City
+Ottawa,Quebec City
 Ottawa,Montreal
 Ottawa,Vancouver
 Ottawa,Winnipeg
@@ -7208,10 +7208,10 @@ Ottawa,Calgary
 Ottawa,St. John's
 Ottawa,Toronto
 Prince Rupert,Vancouver
-Québec City,Chicago
-Québec City,Ottawa
-Québec City,Toronto
-Québec City,Sept-Iles
+Quebec City,Chicago
+Quebec City,Ottawa
+Quebec City,Toronto
+Quebec City,Sept-Iles
 Red Deer,Calgary
 Windsor,Toronto
 Lethbridge,Calgary
@@ -7472,7 +7472,7 @@ Toronto,Fredericton
 Toronto,Halifax
 Toronto,Fort Mcmurray
 Toronto,Ottawa
-Toronto,Québec City
+Toronto,Quebec City
 Toronto,Windsor
 Toronto,"Regina, Saskatchewan"
 Toronto,Thunder Bay
@@ -7493,7 +7493,7 @@ Toronto,Zurich
 Yellowknife,Calgary
 Sandspit,Vancouver
 Sarnia,Toronto
-Sept-Iles,Québec City
+Sept-Iles,Quebec City
 Sept-Iles,Montreal
 Bathurst,Montreal
 Zurich,Montreal
@@ -17867,7 +17867,7 @@ Milan/bergamo,Ibiza
 Milan/bergamo,Kos
 Milan/bergamo,Krakow
 Milan/bergamo,Leeds
-Milan/bergamo,Lübeck
+Milan/bergamo,Lubeck
 Milan/bergamo,Lourdes/Tarbes
 Milan/bergamo,Las Palmas
 Milan/bergamo,Lappeenranta
@@ -18718,9 +18718,9 @@ Leeds,Palma Mallorca
 Leeds,Pisa
 Leeds,Tenerife
 Leeds,Treviso
-Lübeck,Milan/bergamo
-Lübeck,Palma Mallorca
-Lübeck,Pisa
+Lubeck,Milan/bergamo
+Lubeck,Palma Mallorca
+Lubeck,Pisa
 Lourdes/Tarbes,Milan/bergamo
 Lourdes/Tarbes,London
 Londonderry,Birmingham
@@ -19095,7 +19095,7 @@ Palma Mallorca,Gothenburg
 Palma Mallorca,Hahn
 Palma Mallorca,Kaunas
 Palma Mallorca,Leeds
-Palma Mallorca,Lübeck
+Palma Mallorca,Lubeck
 Palma Mallorca,Liverpool
 Palma Mallorca,Marseille
 Palma Mallorca,Maastricht
@@ -19144,7 +19144,7 @@ Pisa,Hahn
 Pisa,Ibiza
 Pisa,Krakow
 Pisa,Leeds
-Pisa,Lübeck
+Pisa,Lubeck
 Pisa,Lisbon
 Pisa,Las Palmas
 Pisa,Liverpool
@@ -21138,7 +21138,7 @@ Haarlemmermeer,Alicante
 Haarlemmermeer,Athens
 Haarlemmermeer,Antalya
 Haarlemmermeer,Barcelona
-Haarlemmermeer,Bodrum.
+Haarlemmermeer,Bodrum
 Haarlemmermeer,Bari
 Haarlemmermeer,Kerkyra
 Haarlemmermeer,Chania
@@ -21185,10 +21185,10 @@ Antalya,Rotterdam
 Barcelona,Haarlemmermeer
 Barcelona,Eindhoven
 Barcelona,Rotterdam
-Bodrum.,Izmir
-Bodrum.,Haarlemmermeer
-Bodrum.,Eindhoven
-Bodrum.,Rotterdam
+Bodrum,Izmir
+Bodrum,Haarlemmermeer
+Bodrum,Eindhoven
+Bodrum,Rotterdam
 Bologna,Eindhoven
 Bari,Haarlemmermeer
 Budapest,Rotterdam
@@ -21204,7 +21204,7 @@ Bergerac,Rotterdam
 Eindhoven,Athens
 Eindhoven,Antalya
 Eindhoven,Barcelona
-Eindhoven,Bodrum.
+Eindhoven,Bodrum
 Eindhoven,Bologna
 Eindhoven,Copenhagen
 Eindhoven,Dalaman
@@ -21276,7 +21276,7 @@ Rotterdam,Malaga
 Rotterdam,Alicante
 Rotterdam,Antalya
 Rotterdam,Barcelona
-Rotterdam,Bodrum.
+Rotterdam,Bodrum
 Rotterdam,Budapest
 Rotterdam,Bergerac
 Rotterdam,Eindhoven
@@ -23493,15 +23493,15 @@ Cordoba,Santiago
 Cancun,Lima
 Cancun,Santiago
 Cuzco,Arequipa
-Medellín,Ibague
-Medellín,Monteria
-Medellín,Pereira
+Medellin,Ibague
+Medellin,Monteria
+Medellin,Pereira
 Buenos Aires,Guayaquil
 Guayaquil,Caracas
 Guayaquil,Buenos Aires
 Guayaquil,Santiago
 Havana,Lima
-Ibague,Medellín
+Ibague,Medellin
 Easter Island,Papeete
 Easter Island,Santiago
 Iquique,La Paz
@@ -23526,8 +23526,8 @@ Medellin,Quito
 Mendoza,Santiago
 Macmahon Camp 4,Puerto Montt
 Mount Pleasant,Punta Arenas
-Monteria,Medellín
-Pereira,Medellín
+Monteria,Medellin
+Pereira,Medellin
 Puerto Maldonado,Lima
 Piura,Lima
 Puerto Montt,Macmahon Camp 4
@@ -24251,11 +24251,11 @@ Belfast,Dubrovnik
 Belfast,Murcia
 Belfast,Reus
 Belfast,Tenerife
-Bodrum.,Nottingham
-Bodrum.,Glasgow
-Bodrum.,Leeds
-Bodrum.,Manchester
-Bodrum.,Newcastle
+Bodrum,Nottingham
+Bodrum,Glasgow
+Bodrum,Leeds
+Bodrum,Manchester
+Bodrum,Newcastle
 Blackpool,Lanzarote
 Blackpool,Malaga
 Blackpool,Alicante
@@ -24287,7 +24287,7 @@ Edinburgh,Menorca
 Edinburgh,Murcia
 Edinburgh,Prague
 Edinburgh,Venice
-Nottingham,Bodrum.
+Nottingham,Bodrum
 Nottingham,Budapest
 Nottingham,Paris
 Nottingham,Dubrovnik
@@ -24303,7 +24303,7 @@ Rome,Newcastle
 Madeira,Nottingham
 Madeira,Leeds
 Madeira,Manchester
-Glasgow,Bodrum.
+Glasgow,Bodrum
 Glasgow,Dalaman
 Glasgow,Heraklion
 Glasgow,Paphos
@@ -24318,7 +24318,7 @@ Jersey,Leeds
 Kos,Manchester
 Krakow,Newcastle
 Leeds,Barcelona
-Leeds,Bodrum.
+Leeds,Bodrum
 Leeds,Budapest
 Leeds,Paris
 Leeds,Dubrovnik
@@ -24345,7 +24345,7 @@ Menorca,Edinburgh
 Menorca,Leeds
 Menorca,Manchester
 Menorca,Newcastle
-Manchester,Bodrum.
+Manchester,Bodrum
 Manchester,Dubrovnik
 Manchester,Dalaman
 Manchester,Madeira
@@ -24370,7 +24370,7 @@ Nice,Manchester
 Newcastle,Lanzarote
 Newcastle,Malaga
 Newcastle,Alicante
-Newcastle,Bodrum.
+Newcastle,Bodrum
 Newcastle,Dubrovnik
 Newcastle,Dalaman
 Newcastle,Faro
@@ -26321,25 +26321,25 @@ Puerto Lempira,La Ceiba
 Roatan,La Ceiba
 San Pedro Sula,La Ceiba
 Tegucigalpa,La Ceiba
-Baie Comeau,Québec City
+Baie Comeau,Quebec City
 Baie Comeau,Wabush
-Bagotville,Québec City
+Bagotville,Quebec City
 Bagotville,Sept-Iles
-Iles De La Madeleine,Québec City
+Iles De La Madeleine,Quebec City
 Iles De La Madeleine,Bonaventure
 Havre St Pierre,Sept-Iles
-Québec City,Baie Comeau
-Québec City,Iles De La Madeleine
-Québec City,Bonaventure
-Québec City,Wabush
-Québec City,Mont Joli
+Quebec City,Baie Comeau
+Quebec City,Iles De La Madeleine
+Quebec City,Bonaventure
+Quebec City,Wabush
+Quebec City,Mont Joli
 Bonaventure,Iles De La Madeleine
 Bonaventure,Mont Joli
 Bonaventure,Bathurst
 Wabush,Baie Comeau
 Wabush,Bagotville
 Wabush,Bonaventure
-Mont Joli,Québec City
+Mont Joli,Quebec City
 Mont Joli,Bonaventure
 Mont Joli,Sept-Iles
 Sept-Iles,Bagotville
@@ -26417,12 +26417,12 @@ Antalya,Trabzon
 Batman,Istanbul
 Barcelona,Istanbul
 Milan/bergamo,Istanbul
-Bodrum.,Brussels
-Bodrum.,Ankara
+Bodrum,Brussels
+Bodrum,Ankara
 Billund,Antalya
 Bologna,Istanbul
 Brussels,Izmir
-Brussels,Bodrum.
+Brussels,Bodrum
 Mulhouse/Basel,Izmir
 Mulhouse/Basel,Istanbul
 Cologne,Ankara
@@ -26444,7 +26444,7 @@ Lefkosa,Gaziantep
 Edremit/Korfez,Istanbul
 Erzincan,Istanbul
 Ankara,Izmir
-Ankara,Bodrum.
+Ankara,Bodrum
 Ankara,Cologne
 Ankara,Dusseldorf
 Ankara,Lefkosa
@@ -29209,14 +29209,14 @@ Agadir,Manchester
 Antalya,Bristol
 Antalya,Paris
 Birmingham,Izmir
-Birmingham,Bodrum.
+Birmingham,Bodrum
 Birmingham,Boa Vista
 Birmingham,Madeira
 Birmingham,Paphos
 Birmingham,Marrakech
 Birmingham,Sharm El Sheikh
-Bodrum.,London
-Bodrum.,Paris
+Bodrum,London
+Bodrum,Paris
 Bristol,Kerkyra
 Bristol,Puerto del Rosario
 Bristol,Menorca
@@ -29248,7 +29248,7 @@ Larnaca,Nottingham
 Larnaca,Glasgow
 Almeria,Manchester
 London,Agadir
-London,Bodrum.
+London,Bodrum
 London,Boa Vista
 London,Madeira
 London,Heraklion
@@ -29290,7 +29290,7 @@ Nantes,Venice
 Porto,Lyon
 Porto,Nantes
 Paris,Antalya
-Paris,Bodrum.
+Paris,Bodrum
 Oujda,Lille
 Oujda,Lyon
 Paphos,Birmingham
@@ -29404,9 +29404,9 @@ Barcelona,Montreal
 Bordeaux,Montreal
 Cayo Coco,Halifax
 Cayo Coco,Montreal
-Paris,Québec City
+Paris,Quebec City
 Cancun,Halifax
-Cancun,Québec City
+Cancun,Quebec City
 Cancun,Vancouver
 Rome,Montreal
 Glasgow,Calgary
@@ -29421,7 +29421,7 @@ Orlando,Halifax
 Orlando,St. John's
 Marseille,Montreal
 Nice,Montreal
-Punta Cana,Québec City
+Punta Cana,Quebec City
 Puerto Vallarta,Montreal
 Santa Clara,Cayo Coco
 Toulouse,Montreal
@@ -29430,8 +29430,8 @@ Venice,Toronto
 Varadero,Santa Clara
 Varadero,Halifax
 Halifax,Orlando
-Québec City,Paris
-Québec City,Punta Cana
+Quebec City,Paris
+Quebec City,Punta Cana
 Montreal,Malaga
 Montreal,Athens
 Montreal,Barcelona
@@ -29622,15 +29622,15 @@ Bastia,London
 Bastia,Toulouse
 Bilbao,Geneva
 Bilbao,Manchester
-Bodrum.,Bristol
-Bodrum.,Edinburgh
-Bodrum.,Liverpool
+Bodrum,Bristol
+Bodrum,Edinburgh
+Bodrum,Liverpool
 Bordeaux,Bristol
 Bordeaux,Mulhouse/Basel
 Bordeaux,Milan
 Bristol,Barcelona
 Bristol,Belfast
-Bristol,Bodrum.
+Bristol,Bodrum
 Bristol,Bordeaux
 Bristol,Paris
 Bristol,Copenhagen
@@ -29704,7 +29704,7 @@ Dalaman,Edinburgh
 Moscow,Manchester
 Dresden,Mulhouse/Basel
 Edinburgh,Athens
-Edinburgh,Bodrum.
+Edinburgh,Bodrum
 Edinburgh,Bristol
 Edinburgh,Mulhouse/Basel
 Edinburgh,Dalaman
@@ -29803,7 +29803,7 @@ Lisbon,Liverpool
 Ljubljana,London
 Liverpool,Haarlemmermeer
 Liverpool,Belfast
-Liverpool,Bodrum.
+Liverpool,Bodrum
 Liverpool,Paris
 Liverpool,Geneva
 Liverpool,Jersey
@@ -30307,7 +30307,7 @@ Newark,St Lucia
 Newark,Fayetteville
 Newark,Halifax
 Newark,Ottawa
-Newark,Québec City
+Newark,Quebec City
 Newark,St. John's
 Buenos Aires,Houston
 Fresno,San Francisco
@@ -30920,7 +30920,7 @@ Fayetteville,Houston
 Yap,Koror
 Halifax,Newark
 Ottawa,Newark
-Québec City,Newark
+Quebec City,Newark
 Yuma,Los Angeles
 Vancouver,Houston
 Saskatoon,Chicago
@@ -31790,7 +31790,7 @@ Gdansk,Glasgow
 Gdansk,Gothenburg
 Gdansk,Haugesund
 Gdansk,Kristiansand
-Gdansk,Lübeck
+Gdansk,Lubeck
 Gdansk,Liverpool
 Gdansk,Malmo
 Gdansk,Stockholm
@@ -31835,7 +31835,7 @@ Ozarowice,Oslo
 Kutaisi,Ozarowice
 Kutaisi,Vilnius
 Kutaisi,Warsaw
-Lübeck,Gdansk
+Lubeck,Gdansk
 Larnaca,Budapest
 Liverpool,Gdansk
 Liverpool,Warsaw
@@ -33051,7 +33051,7 @@ Birmingham,Menorca
 Birmingham,Nice
 Birmingham,Split
 Birmingham,Venice
-Bodrum.,Birmingham
+Bodrum,Birmingham
 Nottingham,Gudja
 Rome,Birmingham
 Gibraltar,Birmingham
