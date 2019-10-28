@@ -29,34 +29,45 @@ public class DepthFirstSearch implements Pathfinder {
 		tree = new HashMap<String, String>();
 	}
 
-    public int findNumConnectedNodes(String source) {
-        //System.out.println("Finding all nodes connected to " + source);
+    // public int findNumConnectedNodes(String source) {
+    //     //System.out.println("Finding all nodes connected to " + source);
 
-        // Create temporary data structures
-        ArrayList<String> marked = new ArrayList<String>();
-        // run search
-        dfs(source, marked);
-        // marked nodes are nodes that source can reach
-        return marked.size();
-    }
+    //     // Create temporary data structures
+    //     ArrayList<String> marked = new ArrayList<String>();
+    //     // run search
+    //     dfs(source, marked);
+    //     // marked nodes are nodes that source can reach
+    //     return marked.size();
+    // }
 
-    private void dfs(String curr, ArrayList<String> marked) {
+    private void dfs(String curr, String target, ArrayList<String> marked) {
+		if (curr.equals(target)) {
+			return;
+		}
 
         // mark curr as visited
-        marked.add(curr);
+		marked.add(curr);
+		System.out.println(curr);
 
         // list of curr's neighbors
         AdjacencyList adjList = graph.getAdjacencyList(curr);
         adjList.setStart();
         for (String neighbour = adjList.iterateNext(); neighbour != null; neighbour = adjList.iterateNext()) {
             if (!marked.contains(neighbour)) {  // if unmarked
-                dfs(neighbour, marked); // mark as visited & push to stack (implicitly)
-                //tree.put(neighbour, curr);
+                dfs(neighbour, target, marked); // mark as visited & push to stack (implicitly)
+				tree.put(neighbour, curr);
+				// System.out.println(tree);
             }
         }
     }
 	
     public void findPath(String source, String dest) {
+		ArrayList<String> marked = new ArrayList<String>();
+		dfs(source, dest, marked);
+		
+		generatePath(dest);
+		printPath();
+
     	/*System.out.println("Finding a path from " + source + " to " + dest);
         
         // Create temporary data structures
@@ -118,7 +129,7 @@ public class DepthFirstSearch implements Pathfinder {
     // called only when path is found
 	private void printPath() {
 		int n = path.size();
-		System.out.print("Shortest path: " + path.get(0));
+		System.out.print("DFS Path: " + path.get(0));
 		for (int i = 1; i < n; i++) {
 			System.out.print(" -> " + path.get(i));
 		}

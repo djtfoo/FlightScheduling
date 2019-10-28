@@ -8,6 +8,7 @@ public class App {
     private String options[] = {
         "Read Graph data",
         "Find Shortest Path (BFS)",
+        "Find DFS Path (DFS)",
         "Print Node Degrees (to File)",
         "Print Graph Connectivity (to File)",
         "Print Adjacency List of Node (to File)"
@@ -69,6 +70,12 @@ public class App {
             break;
         case 3:
         {
+            Pathfinder dfs = new DepthFirstSearch(graph);
+            runPathfinding(dfs);
+        }
+            break;
+        case 4:
+        {
             if (graph == null)
                 System.out.println("No Graph loaded yet!");
             else {
@@ -77,7 +84,7 @@ public class App {
             }
         }
             break;
-        case 4:
+        case 5:
         {
             if (graph == null)
                 System.out.println("No Graph loaded yet!");
@@ -87,7 +94,7 @@ public class App {
             }
         }
             break;
-        case 5:
+        case 6:
         {
             if (graph == null)
                 System.out.println("No Graph loaded yet!");
