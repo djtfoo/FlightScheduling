@@ -22,6 +22,15 @@ public class DepthFirstSearch implements Pathfinder {
     public HashMap<String, String> getTree() {
         return tree;
     }
+
+	private long runtime_ns;	// time taken to run BFS (nanoseconds)
+	public long getRuntimeNs() {
+		return runtime_ns;
+	}
+	private double runtime_ms;	// time taken to run BFS (milliseconds)
+	public double getRuntimeMs() {
+		return runtime_ms;
+	}
 	
 	public DepthFirstSearch(Graph g) {
 		graph = g;
@@ -37,6 +46,7 @@ public class DepthFirstSearch implements Pathfinder {
 
         // Create temporary data structures
         ArrayList<String> marked = new ArrayList<String>();
+		
         // run search
         dfs(source, marked);
         // marked nodes are nodes that source can reach
@@ -47,7 +57,7 @@ public class DepthFirstSearch implements Pathfinder {
 
 		// mark curr as visited
 		marked.add(curr);
-		System.out.println(curr);
+		//System.out.println(curr);
 
         // list of curr's neighbors
         AdjacencyList adjList = graph.getAdjacencyList(curr);
@@ -66,10 +76,26 @@ public class DepthFirstSearch implements Pathfinder {
 	 */
     public void findPath(String source, String dest) {
 		ArrayList<String> marked = new ArrayList<String>();
+		
+		// start counting runtime
+		long startTime = System.nanoTime();
+		long endTime;
+
 		dfs(source, dest, marked);
 		
+		// stop counting runtime after search completes
+		endTime = System.nanoTime();
+		// calculate runtime
+		runtime_ns = endTime - startTime;
+
+		// get path
 		generatePath(dest);
 		printPath();
+		
+		// print runtime
+		System.out.println("Runtime (ns): " + runtime_ns);
+		runtime_ms = runtime_ns / Math.pow(10, 6);
+		System.out.println("Runtime (ms): " + runtime_ms);
     }
 
     private void dfs(String curr, String target, ArrayList<String> marked) {
@@ -79,7 +105,7 @@ public class DepthFirstSearch implements Pathfinder {
 
         // mark curr as visited
 		marked.add(curr);
-		System.out.println(curr);
+		//System.out.println(curr);
 
         // list of curr's neighbors
         AdjacencyList adjList = graph.getAdjacencyList(curr);

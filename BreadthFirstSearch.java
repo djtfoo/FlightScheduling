@@ -59,16 +59,14 @@ public class BreadthFirstSearch implements Pathfinder {
     	while (!queue.isEmpty()) {
     		curr = queue.poll();	// dequeue from queue
     		if (curr.equals(dest)) {
-				// stop counting runtime when destination found
-				endTime = System.nanoTime();
-    			System.out.println("Destination found.");
+    			//System.out.println("Destination found.");
     			break;
     		}
     		else {
     			processNeighbours(curr, queue, marked);
     		}
     	}
-		// stop counting runtime after searching all nodes
+		// stop counting runtime after search completes
 		endTime = System.nanoTime();
 		// calculate runtime
 		runtime_ns = endTime - startTime;
@@ -81,6 +79,7 @@ public class BreadthFirstSearch implements Pathfinder {
     	    printPath();
         }
 
+		// print runtime
 		System.out.println("Runtime (ns): " + runtime_ns);
 		runtime_ms = runtime_ns / Math.pow(10, 6);
 		System.out.println("Runtime (ms): " + runtime_ms);
