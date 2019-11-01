@@ -22,7 +22,16 @@ public class BreadthFirstSearch implements Pathfinder {
     public HashMap<String, String> getTree() {
         return tree;
     }
-	
+
+	private long runtime_ns;	// time taken to run BFS (nanoseconds)
+	public long getRuntimeNs() {
+		return runtime_ns;
+	}
+	private double runtime_ms;	// time taken to run BFS (milliseconds)
+	public double getRuntimeMs() {
+		return runtime_ms;
+	}
+
 	public BreadthFirstSearch(Graph g) {
 		graph = g;
         path = new ArrayList<String>();
@@ -38,7 +47,11 @@ public class BreadthFirstSearch implements Pathfinder {
         // Clear data structures holding results
         path.clear();
         tree.clear();
-    	
+    
+		// start counting runtime
+		long startTime = System.nanoTime();
+		long endTime;
+
     	String curr = source;
     	queue.add(curr);
     	marked.add(curr);
@@ -46,6 +59,8 @@ public class BreadthFirstSearch implements Pathfinder {
     	while (!queue.isEmpty()) {
     		curr = queue.poll();	// dequeue from queue
     		if (curr.equals(dest)) {
+				// stop counting runtime when destination found
+				endTime = System.nanoTime();
     			System.out.println("Destination found.");
     			break;
     		}
@@ -53,6 +68,10 @@ public class BreadthFirstSearch implements Pathfinder {
     			processNeighbours(curr, queue, marked);
     		}
     	}
+		// stop counting runtime after searching all nodes
+		endTime = System.nanoTime();
+		// calculate runtime
+		runtime_ns = endTime - startTime;
     	
     	if (!curr.equals(dest)) {
     		System.out.println("No path found from " + source + " to " + dest + ".");
@@ -61,6 +80,10 @@ public class BreadthFirstSearch implements Pathfinder {
     	    generatePath(dest);
     	    printPath();
         }
+
+		System.out.println("Runtime (ns): " + runtime_ns);
+		runtime_ms = runtime_ns / Math.pow(10, 6);
+		System.out.println("Runtime (ms): " + runtime_ms);
     }
     
 	private void processNeighbours(String curr, Queue<String> queue, ArrayList<String> marked) {

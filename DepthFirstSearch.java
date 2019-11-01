@@ -29,16 +29,48 @@ public class DepthFirstSearch implements Pathfinder {
 		tree = new HashMap<String, String>();
 	}
 
-    // public int findNumConnectedNodes(String source) {
-    //     //System.out.println("Finding all nodes connected to " + source);
+	/*
+	 * Find all nodes connected to a source node
+	 */
+    public int findNumConnectedNodes(String source) {
+        //System.out.println("Finding all nodes connected to " + source);
 
-    //     // Create temporary data structures
-    //     ArrayList<String> marked = new ArrayList<String>();
-    //     // run search
-    //     dfs(source, marked);
-    //     // marked nodes are nodes that source can reach
-    //     return marked.size();
-    // }
+        // Create temporary data structures
+        ArrayList<String> marked = new ArrayList<String>();
+        // run search
+        dfs(source, marked);
+        // marked nodes are nodes that source can reach
+        return marked.size();
+    }
+
+	private void dfs(String curr, ArrayList<String> marked) {
+
+		// mark curr as visited
+		marked.add(curr);
+		System.out.println(curr);
+
+        // list of curr's neighbors
+        AdjacencyList adjList = graph.getAdjacencyList(curr);
+        adjList.setStart();
+        for (String neighbour = adjList.iterateNext(); neighbour != null; neighbour = adjList.iterateNext()) {
+            if (!marked.contains(neighbour)) {  // if unmarked
+                dfs(neighbour, marked); // mark as visited & push to stack (implicitly)
+				tree.put(neighbour, curr);
+				// System.out.println(tree);
+            }
+        }
+	}
+
+	/*
+	 * Find a path between the source and destination node
+	 */
+    public void findPath(String source, String dest) {
+		ArrayList<String> marked = new ArrayList<String>();
+		dfs(source, dest, marked);
+		
+		generatePath(dest);
+		printPath();
+    }
 
     private void dfs(String curr, String target, ArrayList<String> marked) {
 		if (curr.equals(target)) {
@@ -60,62 +92,6 @@ public class DepthFirstSearch implements Pathfinder {
             }
         }
     }
-	
-    public void findPath(String source, String dest) {
-		ArrayList<String> marked = new ArrayList<String>();
-		dfs(source, dest, marked);
-		
-		generatePath(dest);
-		printPath();
-
-    	/*System.out.println("Finding a path from " + source + " to " + dest);
-        
-        // Create temporary data structures
-	    Stack<String> stack = new Stack<String>();
-	    ArrayList<String> marked = new ArrayList<String>();
-        // Clear data structures holding results
-        path.clear();
-        tree.clear();
-    	
-    	String curr = source;
-    	queue.add(curr);
-    	marked.add(curr);
-    	
-    	while (!queue.isEmpty()) {
-    		curr = queue.poll();	// dequeue from queue
-    		if (curr.equals(dest)) {
-    			System.out.println("Destination found.");
-    			break;
-    		}
-    		else {
-    			processNeighbours(curr, queue, marked);
-    		}
-    	}
-    	
-    	if (!curr.equals(dest)) {
-    		System.out.println("No path found from " + source + " to " + dest + ".");
-    	}
-        else {
-    	    generatePath(dest);
-    	    printPath();
-        }*/
-    }
-    
-	private void processNeighbours(String curr, Stack<String> queue, ArrayList<String> marked) {
-		/*// list of curr's neighbors
-		AdjacencyList adjList = graph.getAdjacencyList(curr);
-		adjList.setStart();
-		
-		// iterate through neighbours
-		for (String neighbour = adjList.iterateNext(); neighbour != null; neighbour = adjList.iterateNext()) {
-			// if unmarked, enqueue & mark it, then add the edge to tree
-			if (!marked.contains(neighbour)) {
-				stack.push(neighbour);
-				marked.add(neighbour);
-				tree.put(neighbour, curr);
-			}
-		}*/
-	}
 	
 	// generates path using edges in the generated tree
     // called only if path is found
