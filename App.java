@@ -175,8 +175,12 @@ public class App {
             }
 
             // perform search algorithm
-            if (runAlgo)
-                searcher.findPath(source, dest);
+            if (runAlgo) {
+                
+                for (int i = 0; i < 50; i++) {
+                    searcher.findPath(source, dest);
+                }
+            }
         }
     }
 }
