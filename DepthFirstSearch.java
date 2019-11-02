@@ -109,7 +109,6 @@ public class DepthFirstSearch implements Pathfinder {
     }
 
     private void dfs(String curr, String target, ArrayList<String> marked) {
-		// System.out.println("dfs()");
 		if (curr.equals(target)) {
 			return;
 		}

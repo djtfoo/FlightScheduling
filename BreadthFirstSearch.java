@@ -39,7 +39,7 @@ public class BreadthFirstSearch implements Pathfinder {
 	}
 	
     public double findPath(String source, String dest) {
-    	System.out.println("Finding a path from " + source + " to " + dest);
+//    	System.out.println("Finding a path from " + source + " to " + dest);
         
         // Create temporary data structures
 	    Queue<String> queue = new LinkedList<>();
@@ -76,13 +76,13 @@ public class BreadthFirstSearch implements Pathfinder {
     	}
         else {
     	    generatePath(dest);
-    	    printPath();
+//    	    printPath();
         }
 
 		// print runtime
-		System.out.println("Runtime (ns): " + runtime_ns);
+//		System.out.println("Runtime (ns): " + runtime_ns);
 		runtime_ms = runtime_ns / Math.pow(10, 6);
-		System.out.println("Runtime (ms): " + runtime_ms);
+//		System.out.println("Runtime (ms): " + runtime_ms);
 		return runtime_ms;
     }
     

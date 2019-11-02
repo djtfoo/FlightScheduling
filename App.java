@@ -144,7 +144,7 @@ public class App {
         double runtime_ms = 0;
         for (String source: cities) {
             for (String dest: cities) {
-                System.out.println("source: " + source + "dest: " + dest);
+//                System.out.println("source: " + source + "dest: " + dest);
                 double iter_runtime = 0;
                 for (int j = 0; j < 10; j++) {
                     iter_runtime += searcher.findPath(source, dest);
