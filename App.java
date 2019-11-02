@@ -147,13 +147,12 @@ public class App {
                 System.out.println("source: " + source + "dest: " + dest);
                 double iter_runtime = 0;
                 for (int j = 0; j < 10; j++) {
-                    System.out.println("hi test??");
                     iter_runtime += searcher.findPath(source, dest);
                 }
                 runtime_ms += iter_runtime/10;
             }
         }
-        System.out.println("Runtime: " + runtime_ms);
+        System.out.println("Runtime: " + runtime_ms/cities.size()/cities.size());
     }
 
     // get user selection of graph to load
