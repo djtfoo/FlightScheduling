@@ -63,9 +63,10 @@ public class DepthFirstSearch implements Pathfinder {
         AdjacencyList adjList = graph.getAdjacencyList(curr);
         adjList.setStart();
         for (String neighbour = adjList.iterateNext(); neighbour != null; neighbour = adjList.iterateNext()) {
-            if (!marked.contains(neighbour)) {  // if unmarked
+			if (!marked.contains(neighbour)) {  // if unmarked
                 dfs(neighbour, marked); // mark as visited & push to stack (implicitly)
 				tree.put(neighbour, curr);
+				
 				// System.out.println(tree);
             }
         }
@@ -74,8 +75,9 @@ public class DepthFirstSearch implements Pathfinder {
 	/*
 	 * Find a path between the source and destination node
 	 */
-    public void findPath(String source, String dest) {
+    public double findPath(String source, String dest) {
 		ArrayList<String> marked = new ArrayList<String>();
+		System.out.println(marked);
 		
 		// start counting runtime
 		long startTime = System.nanoTime();
@@ -89,13 +91,16 @@ public class DepthFirstSearch implements Pathfinder {
 		runtime_ns = endTime - startTime;
 
 		// get path
+		System.out.println(runtime_ns);
 		generatePath(dest);
 		printPath();
-		
+
+
 		// print runtime
 		System.out.println("Runtime (ns): " + runtime_ns);
 		runtime_ms = runtime_ns / Math.pow(10, 6);
 		System.out.println("Runtime (ms): " + runtime_ms);
+		return runtime_ms;
     }
 
     private void dfs(String curr, String target, ArrayList<String> marked) {
@@ -122,10 +127,11 @@ public class DepthFirstSearch implements Pathfinder {
 	// generates path using edges in the generated tree
     // called only if path is found
 	private void generatePath(String dest) {
+		System.out.println(tree);
         for (String v = dest; v != null; v = tree.get(v)) {
-    		path.add(v);
+			path.add(v);
     	}
-    	Collections.reverse(path);
+		Collections.reverse(path);
 	}
 	
     // called only when path is found

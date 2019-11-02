@@ -11,7 +11,9 @@ public class App {
         "Find DFS Path (DFS)",
         "Print Node Degrees (to File)",
         "Print Graph Connectivity (to File)",
-        "Print Adjacency List of Node (to File)"
+        "Print Adjacency List of Node (to File)",
+        "Find Runtime For All Cities To All Other Cities (BFS)",
+        "Find Runtime For All Cities To All Other Cities (DFS)"
     };
 
     public static void main(String[] args) {
@@ -61,6 +63,7 @@ public class App {
         switch (choice) {
         case 1: // Read Graph data from CSV
             loadGraph();
+            System.out.println(graph.getAllCities());
             break;
         case 2: // Find Shortest Path (BFS algorithm)
         {
@@ -111,9 +114,46 @@ public class App {
             }
         }
             break;
+        case 7:
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                Pathfinder bfs = new BreadthFirstSearch(graph);
+                getRuntime(bfs);
+            }
+            break;
+        }
+        case 8:
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                Pathfinder dfs = new DepthFirstSearch(graph);
+                getRuntime(dfs);
+            }
+            break;
+        }
         default:
             break;
         }
+    }
+
+    private void getRuntime(Pathfinder searcher) {
+        ArrayList<String> cities = graph.getAllCities();
+        double runtime_ms = 0;
+        for (String source: cities) {
+            for (String dest: cities) {
+                System.out.println("source: " + source + "dest: " + dest);
+                double iter_runtime = 0;
+                for (int j = 0; j < 10; j++) {
+                    System.out.println("hi test??");
+                    iter_runtime += searcher.findPath(source, dest);
+                }
+                runtime_ms += iter_runtime/10;
+            }
+        }
+        System.out.println("Runtime: " + runtime_ms);
     }
 
     // get user selection of graph to load
@@ -176,10 +216,11 @@ public class App {
 
             // perform search algorithm
             if (runAlgo) {
-                
+                double runtime_ms = 0;
                 for (int i = 0; i < 50; i++) {
-                    searcher.findPath(source, dest);
+                    runtime_ms += searcher.findPath(source, dest);
                 }
+                System.out.println("Average runtime: " + runtime_ms/50);
             }
         }
     }

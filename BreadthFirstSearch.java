@@ -38,7 +38,7 @@ public class BreadthFirstSearch implements Pathfinder {
 		tree = new HashMap<String, String>();
 	}
 	
-    public void findPath(String source, String dest) {
+    public double findPath(String source, String dest) {
     	System.out.println("Finding a path from " + source + " to " + dest);
         
         // Create temporary data structures
@@ -83,6 +83,7 @@ public class BreadthFirstSearch implements Pathfinder {
 		System.out.println("Runtime (ns): " + runtime_ns);
 		runtime_ms = runtime_ns / Math.pow(10, 6);
 		System.out.println("Runtime (ms): " + runtime_ms);
+		return runtime_ms;
     }
     
 	private void processNeighbours(String curr, Queue<String> queue, ArrayList<String> marked) {

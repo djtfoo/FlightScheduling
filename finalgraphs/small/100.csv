@@ -6,10 +6,10 @@ Singapore,Seoul
 Singapore,Tokyo
 Singapore,Sydney
 Singapore,Finland
-Singapore,Mumbai 
+Singapore,Mumbai
 Singapore,Italy
 Singapore,Los Angeles
-Singapore,London 
+Singapore,London
 Singapore,Istanbul
 Singapore,Hong Kong
 Dubai,Beijing
@@ -18,10 +18,10 @@ Dubai,Seoul
 Dubai,Tokyo
 Dubai,Sydney
 Dubai,Finland
-Dubai,Mumbai 
+Dubai,Mumbai
 Dubai,Italy
 Dubai,Los Angeles
-Dubai,London 
+Dubai,London
 Dubai,Istanbul
 Dubai,Hong Kong
 Beijing,Shanghai
@@ -29,64 +29,65 @@ Beijing,Seoul
 Beijing,Tokyo
 Beijing,Sydney
 Beijing,Finland
-Beijing,Mumbai 
+Beijing,Mumbai
 Beijing,Italy
 Beijing,Los Angeles
-Beijing,London 
+Beijing,London
 Beijing,Istanbul
 Beijing,Hong Kong
 Shanghai,Seoul
 Shanghai,Tokyo
 Shanghai,Sydney
 Shanghai,Finland
-Shanghai,Mumbai 
+Shanghai,Mumbai
 Shanghai,Italy
 Shanghai,Los Angeles
-Shanghai,London 
+Shanghai,London
 Shanghai,Istanbul
 Shanghai,Hong Kong
 Seoul,Tokyo
 Seoul,Sydney
 Seoul,Finland
-Seoul,Mumbai 
+Seoul,Mumbai
 Seoul,Italy
 Seoul,Los Angeles
-Seoul,London 
+Seoul,London
 Seoul,Istanbul
 Seoul,Hong Kong
 Tokyo,Sydney
 Tokyo,Finland
-Tokyo,Mumbai 
+Tokyo,Mumbai
 Tokyo,Italy
 Tokyo,Los Angeles
-Tokyo,London 
+Tokyo,London
 Tokyo,Istanbul
 Tokyo,Hong Kong
 Sydney,Finland
-Sydney,Mumbai 
+Sydney,Mumbai
 Sydney,Italy
 Sydney,Los Angeles
-Sydney,London 
+Sydney,London
 Sydney,Istanbul
 Sydney,Hong Kong
-Finland,Mumbai 
+Finland,Mumbai
 Finland,Italy
 Finland,Los Angeles
-Finland,London 
+Finland,London
 Finland,Istanbul
 Finland,Hong Kong
 Mumbai,Italy
 Mumbai,Los Angeles
-Mumbai,London 
+Mumbai,London
 Mumbai,Istanbul
 Mumbai,Hong Kong
 Italy,Los Angeles
-Italy,London 
+Italy,London
 Italy,Istanbul
 Italy,Hong Kong
-Los Angeles,London 
+Los Angeles,London
 Los Angeles,Istanbul
 Los Angeles,Hong Kong
 London,Istanbul
 London,Hong Kong
 Istanbul,Hong Kong
+Hong Kong,Singapore

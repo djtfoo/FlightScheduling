@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Graph {
@@ -6,6 +7,14 @@ public class Graph {
 
     public Graph() {
         adjacencyLists = new HashMap<String, AdjacencyList>();
+    }
+
+    public ArrayList<String> getAllCities() {
+        ArrayList<String> cities = new ArrayList<String>();
+        cities.addAll(getAdjacencyLists().keySet());
+        cities.remove("Source City");
+        cities.remove("Destination City");
+        return cities;
     }
 
     public HashMap<String, AdjacencyList> getAdjacencyLists() {
