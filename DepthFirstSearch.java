@@ -46,7 +46,10 @@ public class DepthFirstSearch implements Pathfinder {
 
         // Create temporary data structures
         ArrayList<String> marked = new ArrayList<String>();
-		
+        // Clear data structures holding results
+        path.clear();
+        tree.clear();
+
         // run search
         dfs(source, marked);
         // marked nodes are nodes that source can reach
@@ -77,7 +80,9 @@ public class DepthFirstSearch implements Pathfinder {
 	 */
     public double findPath(String source, String dest) {
 		ArrayList<String> marked = new ArrayList<String>();
-		System.out.println(marked);
+		// Clear data structures holding results
+        path.clear();
+        tree.clear();
 		
 		// start counting runtime
 		long startTime = System.nanoTime();
@@ -104,6 +109,7 @@ public class DepthFirstSearch implements Pathfinder {
     }
 
     private void dfs(String curr, String target, ArrayList<String> marked) {
+		System.out.println("dfs()");
 		if (curr.equals(target)) {
 			return;
 		}
