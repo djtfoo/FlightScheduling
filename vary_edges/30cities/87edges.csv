@@ -1,88 +1,88 @@
 Source City,Destination City
-Napier-Hastings,Dakar
-Eindhoven,Dakar
-Dakar,Kahului
-Addis Ababa,Memphis
-Manama,Bamako
-Volgograd,Istanbul
-Donegal,Linz
-Evansville,Toronto
-Toronto,Alghero
-Kahului,Addis Ababa
-Donegal,Evansville
-Eindhoven,Evansville
-Napier-Hastings,Toronto
-Linz,Dakar
-Varanasi,Donegal
-Evansville,Chicago
-Napier-Hastings,Venice
-Bamako,Donegal
-Addis Ababa,Kahului
-Linz,Abidjan
-Doha,Alghero
-Napier-Hastings,Evansville
-Evansville,Kahului
-Volgograd,Buenos Aires
-Linz,Chicago
-Barcelona,Memphis
-Tenerife,Memphis
-Varanasi,Bamako
-Manama,Toronto
-Tromso,Buenos Aires
-Toronto,Manama
-Changzhou,Mumbai
-Linz,Venice
-Kahului,Evansville
-Changzhou,Venice
-Abidjan,Tenerife
-Venice,Donegal
-Donegal,Changzhou
-Toronto,Chicago
-Donegal,Istanbul
-Prague,Varanasi
-Prague,Istanbul
-Evansville,Toronto
-Doha,Erfurt
-Bamako,Erfurt
-Manama,Dakar
-Evansville,Erfurt
-Istanbul,Kahului
-Prague,Evansville
-Varanasi,Doha
-Abidjan,Mumbai
-Tenerife,Abidjan
-Venice,Memphis
-Toronto,Venice
-Mumbai,Donegal
-Changzhou,Evansville
-Addis Ababa,Evansville
-Manama,Evansville
-Eindhoven,Istanbul
-Abidjan,Prague
-Napier-Hastings,Venice
-Changzhou,Volgograd
-Doha,Prague
-Evansville,Kahului
-Erfurt,Napier-Hastings
-Addis Ababa,Bamako
-Prague,Mumbai
-Addis Ababa,Buenos Aires
-Tenerife,Donegal
-Volgograd,Tenerife
-Linz,Evansville
-Erfurt,Varanasi
-Venice,Volgograd
-Linz,Napier-Hastings
-Linz,Buenos Aires
-Barcelona,Toronto
-Barcelona,Varanasi
-Changzhou,Buenos Aires
-Alghero,Mumbai
-Barcelona,Evansville
-Eindhoven,Doha
-Varanasi,Alghero
-Doha,Napier-Hastings
-Changzhou,Linz
-Tromso,Evansville
-Kahului,Abidjan
-Barcelona,Venice
+Palma Mallorca,Miami
+Monastir,Kuwait City
+Puerto del Rosario,Kalibo
+Faro,Tallinn
+Launceston,Toronto
+Accra,Puerto del Rosario
+Hong Kong,Tasiujuaq
+Yerevan,Tasiujuaq
+Moscow,Dusseldorf
+Palma Mallorca,Launceston
+Launceston,Miami
+Washington,Oslo
+Belgrade,Birmingham
+Accra,Saipan
+Sokoto,Puerto del Rosario
+Minneapolis,Dusseldorf
+Saipan,Verona
+Verona,Dusseldorf
+Moscow,Accra
+Kalibo,Aktau
+Puerto del Rosario,Hong Kong
+Washington,Tasiujuaq
+Sokoto,Kuwait City
+Miami,Minneapolis
+Calgary,Kalibo
+Washington,Tallinn
+Monastir,Miami
+Kuwait City,Minneapolis
+Toronto,Palma Mallorca
+Shannon,Calgary
+Toronto,Yerevan
+Verona,Aktau
+Verona,Shannon
+Calgary,Washington
+Faro,Washington
+Toronto,Tallinn
+Tallinn,Minneapolis
+Pune,Kalibo
+Yerevan,Dusseldorf
+Tasiujuaq,Shannon
+Birmingham,Sokoto
+Launceston,London
+Verona,Tasiujuaq
+Washington,London
+Toronto,Minneapolis
+Oslo,London
+Tasiujuaq,Pune
+Tallinn,Sokoto
+Dusseldorf,Launceston
+Verona,Calgary
+London,Faro
+Saipan,Hong Kong
+Accra,Toronto
+Verona,Launceston
+Belgrade,Kuwait City
+Launceston,Accra
+Yerevan,Oslo
+Verona,Yerevan
+Belgrade,Calgary
+Belgrade,Saipan
+Monastir,Adrar
+Miami,Aktau
+Monastir,Tallinn
+Washington,Moscow
+Dusseldorf,Shannon
+Oslo,Birmingham
+Washington,Pune
+Minneapolis,Pune
+Pune,Calgary
+Dusseldorf,Hong Kong
+Kuwait City,Faro
+Monastir,Toronto
+Calgary,Sokoto
+Monastir,Dusseldorf
+Kuwait City,Puerto del Rosario
+Dusseldorf,Tallinn
+Calgary,Miami
+Verona,Moscow
+Tasiujuaq,Aktau
+Adrar,Kuwait City
+Faro,Yerevan
+Sokoto,Yerevan
+Kuwait City,Toronto
+Shannon,Tallinn
+Sokoto,Pune
+Kalibo,Sokoto
+London,Birmingham
