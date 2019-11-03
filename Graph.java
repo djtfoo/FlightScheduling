@@ -50,7 +50,7 @@ public class Graph {
 
     private boolean addEdgeToList(String source, String target) {
         if (adjacencyLists.get(source).contains(target)) {
-            //System.out.println(source + " to " + target + " edge already exists");
+            System.out.println(source + " to " + target + " edge already exists");
             return false;
         }
         adjacencyLists.get(source).add(target);
