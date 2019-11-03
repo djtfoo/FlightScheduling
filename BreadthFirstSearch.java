@@ -76,7 +76,7 @@ public class BreadthFirstSearch implements Pathfinder {
     	}
         else {
     	    generatePath(dest);
-//    	    printPath();
+    	    printPath();
         }
 
 		// print runtime

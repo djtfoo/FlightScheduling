@@ -6,14 +6,18 @@ public class App {
     private String graphData[];
     private Graph graph = null;
     private String options[] = {
-        "Read Graph data",
-        "Find Shortest Path (BFS)",
-        "Find DFS Path (DFS)",
+        "Read Graph data",      // 1
+        "Find Shortest Path (BFS)", // 2
+        "Find A Path (DFS)",  // 3
+        "Find Runtime For All Cities To All Other Cities (BFS)",    // 4
+        "Find Runtime For All Cities To All Other Cities (DFS)",    // 5
+        "Debug Options"     //6
+    };
+
+    private String debugOptions[] = {
         "Print Node Degrees (to File)",
         "Print Graph Connectivity (to File)",
-        "Print Adjacency List of Node (to File)",
-        "Find Runtime For All Cities To All Other Cities (BFS)",
-        "Find Runtime For All Cities To All Other Cities (DFS)"
+        "Print Adjacency List of a Node (to File)"
     };
 
     public static void main(String[] args) {
@@ -21,16 +25,6 @@ public class App {
         App app = new App();
         app.graphData = args.clone();
         app.run();
-
-        //Graph graph = app.readGraph("routedata/routeslargest.csv");
-        // print an adjacency list as an example
-        //System.out.println("\n\nPrint adjacency list");
-        //graph.printAdjacencyList("KZN");
-        
-        // print out BFS test
-        //System.out.println("\n===== BFS test uwu =====");
-        //BreadthFirstSearch bfs = new BreadthFirstSearch(graph);
-        //bfs.findPath("ASF", "AER");
     }
 
     private void run() {
@@ -71,50 +65,13 @@ public class App {
             runPathfinding(bfs);
         }
             break;
-        case 3:
+        case 3: // Find A Path using DFS algorithm
         {
             Pathfinder dfs = new DepthFirstSearch(graph);
             runPathfinding(dfs);
         }
             break;
-        case 4:
-        {
-            if (graph == null)
-                System.out.println("No Graph loaded yet!");
-            else {
-                GraphLogger.getDegreeOfEachNode("./output/node_degrees.csv", graph);
-                System.out.println("Data logged");
-            }
-        }
-            break;
-        case 5:
-        {
-            if (graph == null)
-                System.out.println("No Graph loaded yet!");
-            else {
-                GraphLogger.getConnectivityOfEachNode("./output/node_connectivity.csv", graph);
-                System.out.println("Data logged");
-            }
-        }
-            break;
-        case 6:
-        {
-            if (graph == null)
-                System.out.println("No Graph loaded yet!");
-            else {
-                Scanner sc = new Scanner(System.in);
-                System.out.print("Enter node: ");
-                String node = sc.nextLine();
-                if (graph.containsNode(node)) {
-                    GraphLogger.getAdjacentNodes("./output/adjlist/" + node + ".csv", graph, node);
-                    System.out.println("Data logged");
-                } else {
-                    System.out.println(node + " is not in graph");
-                }
-            }
-        }
-            break;
-        case 7:
+        case 4: // Find Runtime For All Cities To All Other Cities (BFS)
         {
             if (graph == null)
                 System.out.println("No Graph loaded yet!");
@@ -124,7 +81,7 @@ public class App {
             }
             break;
         }
-        case 8:
+        case 5: // Find Runtime For All Cities To All Other Cities (DFS)
         {
             if (graph == null)
                 System.out.println("No Graph loaded yet!");
@@ -133,6 +90,10 @@ public class App {
                 getRuntime(dfs);
             }
             break;
+        }
+        case 6: // Debug Options
+        {
+            debugOptions();
         }
         default:
             break;
@@ -223,4 +184,63 @@ public class App {
             }
         }
     }
+
+    private void debugOptions() {
+
+        // print options
+        int i;
+        for (i = 1; i <= debugOptions.length; i++) {
+            System.out.printf("(%d) %s\n", i, debugOptions[i-1]);
+        }
+        // print quit option
+        System.out.printf("(%d) Quit\n", i);
+
+        int choice = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter option: ");
+        choice = sc.nextInt();
+        switch (choice)
+        {
+        case 1: // Print Node Degrees (to File)
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                GraphLogger.getDegreeOfEachNode("./output/node_degrees.csv", graph);
+                System.out.println("Data logged");
+            }
+        }
+            break;
+        case 2: // Print Graph Connectivity (to File)
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                GraphLogger.getConnectivityOfEachNode("./output/node_connectivity.csv", graph);
+                System.out.println("Data logged");
+            }
+        }
+            break;
+        case 3: // Print Adjacency List of a Node (to File)
+        {
+            if (graph == null)
+                System.out.println("No Graph loaded yet!");
+            else {
+                Scanner scr = new Scanner(System.in);
+                System.out.print("Enter node: ");
+                String node = scr.nextLine();
+                if (graph.containsNode(node)) {
+                    GraphLogger.getAdjacentNodes("./output/adjlist/" + node + ".csv", graph, node);
+                    System.out.println("Data logged");
+                } else {
+                    System.out.println(node + " is not in graph");
+                }
+            }
+        }
+            break;
+        default:
+            break;
+        }
+    }
+
 }

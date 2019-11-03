@@ -96,15 +96,15 @@ public class DepthFirstSearch implements Pathfinder {
 		runtime_ns = endTime - startTime;
 
 		// get path
-		System.out.println(runtime_ns);
+//		System.out.println(runtime_ns);
 		generatePath(dest);
 		printPath();
 
 
 		// print runtime
-		System.out.println("Runtime (ns): " + runtime_ns);
+//		System.out.println("Runtime (ns): " + runtime_ns);
 		runtime_ms = runtime_ns / Math.pow(10, 6);
-		System.out.println("Runtime (ms): " + runtime_ms);
+//		System.out.println("Runtime (ms): " + runtime_ms);
 		return runtime_ms;
     }
 
@@ -132,7 +132,7 @@ public class DepthFirstSearch implements Pathfinder {
 	// generates path using edges in the generated tree
     // called only if path is found
 	private void generatePath(String dest) {
-		System.out.println(tree);
+//		System.out.println(tree);
         for (String v = dest; v != null; v = tree.get(v)) {
 			path.add(v);
     	}
